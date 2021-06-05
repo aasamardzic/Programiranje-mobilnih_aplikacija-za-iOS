@@ -1,0 +1,3008 @@
+# Translation of Themes - Posterity in Bosnian
+# This file is distributed under the same license as the Themes - Posterity package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-02-25 00:09:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: bs_BA\n"
+"Project-Id-Version: Themes - Posterity\n"
+
+#. Theme Name of the theme
+msgid "Posterity"
+msgstr "Posterity"
+
+#. Description of the theme
+msgid "Posterity is a next generation template which comes with loads of options. It is completely free with no paid version. Provides multilingual and RTL experience. Compatible with WooCommerce, CTA contact forms, SEO and page builder plugins like Gutenberg, Elementor, Brizy, Beaver, Site Origin and others. It comes with 63+ ready to import templates which means you have unlimited possibilities using this theme. Create your next website in any industry charity, construction, computer, software or anything. Simple, flexible, easy to use and fully documented. https://www.sktthemesdemo.net/documentation/posterity-doc/"
+msgstr "Posterity je predložak sledeće generacije koji dolazi sa gomilom opcija. Potpuno je besplatan bez plaćene verzije. Pruža višejezični i RTL doživljaj. Compatible with WooCommerce, CTA contact forms, SEO and page builder plugins like Gutenberg, Elementor, Brizy, Beaver, Site Origin and others. Dolazi sa 63+ spremnim za uvoz predložaka što znači da imate neograničene mogućnosti koristeći ovu temu. Kreirajte vašu sledeću web stranicu u bilo koje dobrotvorne svrhe industrije, građevinarstva, kompjutera, softvera ili bilo čega. Jednostavan, fleksibilan, jednostavan za upotrebu i potpuno dokumentiran."
+
+#: advance/theme-options.php:1905
+msgctxt "tool"
+msgid "Search"
+msgstr "Pretraga"
+
+#. translators: %1$d number of results, %2$s search query
+#: index.php:42
+msgid "%1$d search result for \"%2$s\""
+msgid_plural "%1$d search results for \"%2$s\""
+msgstr[0] "%1$d rezultat pretrage za \"%2$s\""
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: %1$s - time in seconds, %2$s - max_execution_time
+#: advance/admin/posterityinfo-pages-functions.php:105
+msgid "%1$s - Having %2$s less than 30 can hurt the import process. We recommend setting it to at least 60 if possible, even if only for the import process."
+msgstr "%1$s - To što %2$s manje od 30 može naškoditi procesu uvoza. Preporučujemo postavljanje na najmanje 60 ako je moguće, čak i ako samo za proces uvoza."
+
+#. translators:  %1$s is memory available and %2$s is link to "Increasing
+#. memory allocated to PHP" article
+#: advance/admin/posterityinfo-pages-functions.php:63
+msgid "%1$s - Having memory lower than 96 MB(we recommend 128 MB or more) can produce errors while importing demo data, depending on how many plugins you have active. See: %2$s"
+msgstr "%1$s - Imajući memoriju nižu od 96 MB(preporučujemo 128 MB ili više) može proizvesti greške prilikom uvoza demo podataka, u zavisnosti od toga koliko dodataka imate aktivnih. Vidi: %2$s"
+
+#. translators:  %1$s is memory available and %2$s is link to "Increasing
+#. memory allocated to PHP" article
+#: advance/admin/posterityinfo-pages-functions.php:59
+msgid "%1$s - We can not determine the true memory limit that is set on your server. It is possible that your server admin blocked manipulating this limit. See: %2$s"
+msgstr "%1$s - Ne možemo odrediti pravo ograničenje memorije koje je postavljeno na vašem serveru. Moguće je da je vaš administrator servera blokirao manipuliranje ovim ograničenjima. Vidi: %2$s"
+
+#. translators:  %1$s is memory available and %2$s is link to "Increasing
+#. memory allocated to PHP" article
+#: advance/admin/posterityinfo-pages-functions.php:67
+msgid "%1$s - You should be fine with so much memory, however, depending on how many plugins you have active you should change it to 128 MB or more. See: %2$s"
+msgstr "%1$s - Trebalo bi da budete u redu sa toliko memorije, međutim, u zavisnosti od toga koliko dodataka imate aktivni trebalo bi da ga promenite na 128 MB ili više. Vidi: %2$s"
+
+#. translators: 1: plugin name.
+#: advance/inc/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s je instaliran i uspješno aktiviran."
+
+#. translators: 1: plugin name.
+#: advance/inc/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr "%1$s je uspješno instaliran."
+
+#. translators: %1$s: Theme name, %2$s: required PHP version, %3$s: current PHP
+#. version
+#: advance/compatibility.php:44
+msgid "%1$s theme requires at least PHP version %2$s. You are running version %3$s. Please upgrade and try again."
+msgstr "%1$s tema zahtijeva barem PHP verziju %2$s. Ti vodiš verziju %3$s. Molim vas nadogradite i pokušajte ponovo."
+
+#. translators: %1$s: Theme name, %2$s: the required WordPress version, %3$s:
+#. user's current version
+#: advance/compatibility.php:34
+msgid "%1$s theme requires at least WordPress version %2$s. You are running version %3$s. Please upgrade and try again."
+msgstr "%1$s tema zahtijeva barem WordPress verziju %2$s. Ti vodiš verziju %3$s. Molim vas nadogradite i pokušajte ponovo."
+
+#. translators: %d - number of comments
+#: comments.php:27
+msgid "%d comment"
+msgid_plural "%d comments"
+msgstr[0] "%d komentar"
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: %s: Post size limit value
+#. translators: %s: Max upload size limit value
+#: advance/admin/posterityinfo-pages-functions.php:125
+#: advance/admin/posterityinfo-pages-functions.php:140
+msgid "%s - too low value for this setting might cause problems. Recommended 64MB or more."
+msgstr "%s - preniska vrijednost za ovu postavku može izazvati probleme. Preporučeno 64MB ili više."
+
+#. translators: %s: Theme name
+#: advance/admin/admin.php:112
+msgid "%s Info"
+msgstr "%s Info"
+
+#. translators: "Go back" link
+#: no-content.php:15
+msgid "%s or use Site Map below:"
+msgstr "%s ili koristite Mapu web-lokacije ispod:"
+
+#: advance/theme-options.php:425
+msgid "1"
+msgstr "1"
+
+#: advance/theme-options.php:44
+msgid "100"
+msgstr "100"
+
+#: advance/theme-options.php:426
+msgid "2"
+msgstr "2"
+
+#: advance/theme-options.php:45
+msgid "200"
+msgstr "200"
+
+#: advance/theme-options.php:427
+msgid "3"
+msgstr "3"
+
+#: advance/theme-options.php:46
+msgid "300"
+msgstr "300"
+
+#: advance/theme-options.php:428
+msgid "4"
+msgstr "4"
+
+#: advance/theme-options.php:3659
+msgid "404 page template"
+msgstr "404 predložak stranice"
+
+#: advance/theme-options.php:429
+msgid "5"
+msgstr "5"
+
+#: advance/theme-options.php:48
+msgid "500"
+msgstr "500"
+
+#: advance/theme-options.php:49
+msgid "600"
+msgstr "600"
+
+#: advance/theme-options.php:51
+msgid "800"
+msgstr "800"
+
+#: advance/theme-options.php:52
+msgid "900"
+msgstr "900"
+
+#: advance/theme-options.php:276
+msgid "<strong>On load</strong> is called when the whole site, with all the images, is loaded, which can take a lot of time on heavier sites, and even more time on mobile devices. Also,  it can sometimes hang and never hide the preloader, when there is a problem with some resource. <br /><strong>On DOM ready</strong> is called when the whole HTML with CSS is loaded, so after the preloader is hidden, you can still see the loading of images. This is a much safer option."
+msgstr "Na <strong>teret</strong> se poziva kada je cijeli sajt, sa svim slikama, učitano, što može potrajati puno vremena na težim lokacijama, a još više vremena na mobilnim uređajima. Također, ponekad može objesiti i nikada sakriti preloader, kada postoji problem sa nekim resursom.<br />Na <strong>DOM ready</strong> se poziva kada je cijeli HTML sa CSS-om učitano, tako da nakon što je preloader skriven, još uvijek se može vidjeti učitavanje slika. Ovo je mnogo sigurnija opcija."
+
+#: advance/inc/class-tgm-plugin-activation.php:2726
+#: advance/class-posterity-framework.php:956
+msgid "Activate"
+msgstr "Aktivirati"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: advance/inc/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr "Aktiviraj %2$s"
+
+#: advance/inc/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "Aktivni"
+
+#: advance/admin/print-options.php:252
+msgid "Add"
+msgstr "Dodati"
+
+#: advance/admin/metaboxes.php:201
+msgid "Add Video from Youtube/Vimeo"
+msgstr "Dodaj Video sa Youtube/Vimeo"
+
+#: advance/head-scripts-styles.php:200
+msgid "Add comment"
+msgstr "Dodaj komentar"
+
+#: advance/admin/metaboxes.php:202
+msgid "Add items at beginning of the list"
+msgstr "Dodaj stavke na početku liste"
+
+#: advance/inc/customizer/controls/posterity-class-a13-customize-sidebars-control.php:54
+msgid "Add sidebar"
+msgstr "Dodaj bočnu traku"
+
+#: advance/theme-options.php:2192
+msgid "After this many words post will be cut in the automatic mode."
+msgstr "Nakon ovoliko riječi post će biti izrezano u automatskom režimu."
+
+#: advance/theme-options.php:1471
+msgid "After turning on the mobile menu will be closed after clicking the link menu. This option is good for \"one page\" sites. For traditional websites, it is recommended to disable this option."
+msgstr "Nakon što uključite meni za mobilne uređaje bit će zatvoren nakon klika na meni veze. Ova opcija je dobra za \"one page\" sajtove. Za tradicionalne web stranice preporučuje se onemogućiti ovu opciju."
+
+#: advance/utilities/layout-parts.php:1154
+msgid "All"
+msgstr "Sve"
+
+#: advance/inc/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "Sve instalacije i aktivacije su završene."
+
+#: advance/inc/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "Sve instalacije su završene."
+
+#. translators: 1: dashboard link.
+#: advance/inc/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Svi plugini su instalirani i aktivirani. %1$s"
+
+#: advance/theme-options.php:1479
+msgid "Allow for the mobile menu"
+msgstr "Dozvoli mobilni meni"
+
+#: advance/theme-options.php:3365 advance/theme-options.php:3371
+#: advance/theme-options.php:3377 advance/theme-options.php:3383
+msgid "Alternative button"
+msgstr "Alternativno dugme"
+
+#. translators: 1: plugin name, 2: error message.
+#: advance/inc/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Došlo je do greške prilikom instalacije %1$s: <strong>%2$s</strong>."
+
+#: advance/theme-options.php:3718
+msgid "Anchors"
+msgstr "Sidra"
+
+#: advance/theme-options.php:350
+msgid "Animation color"
+msgstr "Boja animacije"
+
+#: advance/utilities/posts.php:487
+msgid "Apologies, but no results were found for the requested archive."
+msgstr "Izvinjavam se, ali nisu pronađeni rezultati za traženu arhivu."
+
+#: advance/theme-options.php:335
+msgid "Arcs"
+msgstr "Lukovi"
+
+#: advance/theme-options.php:326
+msgid "Atom"
+msgstr "Atom"
+
+#: advance/theme-options.php:2231 advance/theme-options.php:2446
+msgid "Author"
+msgstr "Autor"
+
+#. translators: %s - author name
+#: index.php:46
+msgid "Author Archives: %s"
+msgstr "Arhiva autora: %s"
+
+#: advance/theme-options.php:2426
+msgid "Author info"
+msgstr "Autor info"
+
+#: advance/theme-options.php:2183
+msgid "Automatic"
+msgstr "Automatski"
+
+#: advance/inc/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "Dostupna verzija:"
+
+#: advance/theme-options.php:2010 advance/theme-options.php:2654
+msgid "Background"
+msgstr "Pozadina"
+
+#: advance/theme-options.php:213 advance/theme-options.php:315
+#: advance/theme-options.php:525 advance/theme-options.php:533
+#: advance/theme-options.php:637 advance/theme-options.php:806
+#: advance/theme-options.php:969 advance/theme-options.php:976
+#: advance/theme-options.php:1028 advance/theme-options.php:1034
+#: advance/theme-options.php:1185 advance/theme-options.php:1191
+#: advance/theme-options.php:1491 advance/theme-options.php:1523
+#: advance/theme-options.php:1547 advance/theme-options.php:1786
+#: advance/theme-options.php:1793 advance/theme-options.php:1799
+#: advance/theme-options.php:1832 advance/theme-options.php:1839
+#: advance/theme-options.php:1972 advance/theme-options.php:1980
+#: advance/theme-options.php:2040 advance/theme-options.php:2684
+#: advance/theme-options.php:3304 advance/theme-options.php:3341
+#: advance/theme-options.php:3347 advance/theme-options.php:3365
+#: advance/theme-options.php:3371 advance/theme-options.php:3506
+msgid "Background color"
+msgstr "Boja pozadine"
+
+#: advance/theme-options.php:190 advance/theme-options.php:288
+#: advance/theme-options.php:2026 advance/theme-options.php:2299
+#: advance/theme-options.php:2540 advance/theme-options.php:2670
+#: advance/theme-options.php:2864 advance/theme-options.php:3041
+#: advance/theme-options.php:3211 advance/theme-options.php:3492
+#: advance/theme-options.php:3555
+msgid "Background image"
+msgstr "Pozadinska slika"
+
+#: advance/sidebars.php:37
+msgid "Basket sidebar"
+msgstr "Korpa bočna traka"
+
+#: advance/theme-options.php:1819 advance/theme-options.php:1826
+#: advance/theme-options.php:1892 advance/theme-options.php:1899
+msgid "Basket, sidebar, menu and search icons. It is also color for the text of \"Tools button\"."
+msgstr "Korpa, bočni traka, meni i ikone za pretraživanje. Također je boja za tekst \"Alatnog dugmeta\"."
+
+#: advance/inc/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Započni aktiviranje plugina"
+msgstr[1] ""
+msgstr[2] ""
+
+#: advance/inc/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Započni instalaciju plugina"
+msgstr[1] ""
+msgstr[2] ""
+
+#: advance/inc/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Započni sa apauting pluginom"
+msgstr[1] ""
+msgstr[2] ""
+
+#: advance/theme-options.php:112
+msgid "Black"
+msgstr "Crna"
+
+#: advance/utilities/layout-parts.php:731 advance/theme-options.php:172
+msgid "Blog"
+msgstr "Blog"
+
+#: index.php:63
+msgid "Blog Archives"
+msgstr "Blog Archives"
+
+#: advance/admin/metaboxes.php:46
+msgid "Blog post details"
+msgstr "Detalji o objavi bloga"
+
+#: advance/theme-options.php:2001 advance/admin/metaboxes.php:16
+msgid "Blog settings"
+msgstr "Postavke bloga"
+
+#: advance/sidebars.php:12
+msgid "Blog sidebar"
+msgstr "Bočna traka bloga"
+
+#: advance/theme-options.php:334
+msgid "Blurry"
+msgstr "Mutno"
+
+#: advance/theme-options.php:50
+msgid "Bold 700"
+msgstr "Podebljano 700"
+
+#: advance/theme-options.php:124
+msgid "Border"
+msgstr "Okvir"
+
+#: advance/theme-options.php:1846 advance/theme-options.php:1853
+msgid "Border color"
+msgstr "Boja i ruba"
+
+#: advance/theme-options.php:1089
+msgid "Border radius"
+msgstr "Granični radijus"
+
+#: advance/inc/customizer/controls/posterity-class-a13-customize-spacing-control.php:42
+msgid "Bottom"
+msgstr "Dole"
+
+#: advance/theme-options.php:1198
+msgid "Bottom border"
+msgstr "Donja granica"
+
+#: advance/theme-options.php:2143 advance/theme-options.php:2797
+msgid "Brick margin"
+msgstr "Margina cigle"
+
+#: advance/theme-options.php:2119 advance/theme-options.php:2776
+msgid "Bricks columns"
+msgstr "Stubovi od cigli"
+
+#: advance/theme-options.php:1019 advance/theme-options.php:3332
+msgid "Buttons"
+msgstr "Dugmad"
+
+#. translators: %1$s - author name in form of link
+#: attachment.php:49
+msgid "By %1$s"
+msgstr "Po %1$s"
+
+#: advance/theme-options.php:2162 advance/theme-options.php:2816
+msgid "By clicking button"
+msgstr "Klikom na dugme"
+
+#: advance/theme-options.php:2245 advance/theme-options.php:2460
+#: no-content.php:31
+msgid "Categories"
+msgstr "Kategorije"
+
+#. translators: %s - category name
+#: index.php:49
+msgid "Category Archives: %s"
+msgstr "Sve iz kategorije: %s"
+
+#: advance/theme-options.php:64
+msgid "Center"
+msgstr "Centar"
+
+#. translators: %s: Children Navigation
+#: advance/meta.php:356 advance/meta.php:358 advance/meta.php:360
+#: advance/meta.php:362
+msgid "Children Navigation"
+msgstr "Djeca Navigacija"
+
+#: advance/theme-options.php:3473
+msgid "Children Navigation + sidebar on the left"
+msgstr "Djeca Navigacija + bočna traka s lijeve strane"
+
+#: advance/theme-options.php:3476
+msgid "Children Navigation + sidebar on the right"
+msgstr "Djeca Navigacija + bočna traka na desnoj strani"
+
+#: advance/admin/posterityinfo-pages.php:113
+msgid "Choose & move to next step"
+msgstr "Odaberite & premjestite na sljedeći korak"
+
+#: advance/theme-options.php:330
+msgid "Circle Illusion"
+msgstr "Iluzija kruga"
+
+#: advance/theme-options.php:869
+msgid "Circles"
+msgstr "Krugovima"
+
+#: advance/theme-options.php:515
+msgid "Classic"
+msgstr "Klasični"
+
+#: advance/admin/print-options.php:142
+msgid "Clear field"
+msgstr "Očisti polje"
+
+#: advance/posterity.php:149
+msgid "Click on the button below to complete theme installation process.."
+msgstr "Kliknite na dugme ispod da biste dovršili proces instalacije teme.."
+
+#: advance/theme-options.php:1470
+msgid "Close menu after click"
+msgstr "Zatvori meni nakon klika"
+
+#: advance/theme-options.php:1583 advance/theme-options.php:1610
+msgid "Closing icon"
+msgstr "Ikona zatvaranja"
+
+#: advance/theme-options.php:338
+msgid "Cloud circle"
+msgstr "Krug oblaka"
+
+#: advance/theme-options.php:113 advance/theme-options.php:477
+#: advance/theme-options.php:489 advance/theme-options.php:564
+#: advance/theme-options.php:983 advance/theme-options.php:990
+#: advance/theme-options.php:1230 advance/theme-options.php:1241
+#: advance/theme-options.php:1818 advance/theme-options.php:1825
+#: advance/theme-options.php:1860 advance/theme-options.php:1871
+#: advance/theme-options.php:1891 advance/theme-options.php:1898
+msgid "Color"
+msgstr "Boja"
+
+#: advance/meta.php:675
+msgid "Color of navigation bullets"
+msgstr "Boja navigacijskih metaka"
+
+#: advance/utilities/posts.php:385
+msgid "Comment navigation"
+msgstr "Navigacija kometara"
+
+#: advance/theme-options.php:3446
+msgid "Comments"
+msgstr "Komentari"
+
+#: comments.php:51
+msgid "Comments are closed."
+msgstr "Komentari su zatvoreni."
+
+#: advance/theme-options.php:2238 advance/theme-options.php:2453
+msgid "Comments number"
+msgstr "Broj komentara"
+
+#: advance/posterity.php:150
+msgid "Complete Installation"
+msgstr "Kompletna instalacija"
+
+#: advance/theme-options.php:1163
+msgid "Content width"
+msgstr "Širina sadržaja"
+
+#: advance/admin/posterityinfo-pages-functions.php:92
+msgid "Couldn't determine PHP version because phpversion() doesn't exist."
+msgstr "Nisam mogao odrediti PHP verziju jer phpversion() ne postoji."
+
+#: advance/theme-options.php:241
+msgid "Cursor"
+msgstr "Kursor"
+
+#: advance/theme-options.php:233
+msgid "Custom"
+msgstr "Prilagođeni"
+
+#: advance/theme-options.php:2019 advance/theme-options.php:2663
+#: advance/theme-options.php:3485
+msgid "Custom background"
+msgstr "Prilagođena pozadina"
+
+#: advance/theme-options.php:250
+msgid "Custom cursor image"
+msgstr "Prilagođena slika kursorija"
+
+#. translators: %s - day
+#: index.php:55
+msgid "Daily Archives: %s"
+msgstr "Daily Archives: %s"
+
+#: advance/theme-options.php:2219 advance/theme-options.php:2434
+msgid "Date of publish or last update"
+msgstr "Datum objavljivanja ili posljednje ažuriranje"
+
+#: advance/theme-options.php:3670 advance/theme-options.php:3694
+msgid "Default"
+msgstr "Uobičajeno"
+
+#: advance/meta.php:684
+msgid "Default bullets icon"
+msgstr "Zadana ikona za grafičke metke"
+
+#: advance/theme-options.php:3677 advance/theme-options.php:3701
+msgid "Default but I want to change the background image"
+msgstr "Zadano, ali želim promijeniti pozadinsku sliku"
+
+#: advance/admin/posterityinfo-pages-functions.php:36
+msgid "Demo Data Directory"
+msgstr "Demo direktorij podataka"
+
+#: advance/theme-options.php:2132
+msgid "Depending on the actual width of the screen, the available space for bricks may be smaller, but never greater than this number."
+msgstr "U zavisnosti od stvarne širine ekrana, raspoloživi prostor za cigle može biti manji, ali nikada veći od ovog broja."
+
+#: advance/theme-options.php:543 advance/theme-options.php:654
+#: advance/theme-options.php:3321
+msgid "Depending on what background you have set up, choose proper option."
+msgstr "U zavisnosti od toga koju pozadinu ste postavili, odaberite odgovarajuću opciju."
+
+#: advance/theme-options.php:1132
+msgid "Disabled, show only default header fixed"
+msgstr "Onemogućeno, prikaži samo zadano zaglavlje fiksno"
+
+#: advance/theme-options.php:1131
+msgid "Disabled, show only default header(not fixed)"
+msgstr "Onemogućeno, prikaži samo zadano zaglavlje(nije fiksno)"
+
+#: advance/inc/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "Zanemari ovu obavijest"
+
+#: advance/theme-options.php:2171
+msgid "Display \"Read more\" link"
+msgstr "Prikaži vezu \"Pročitaj više\""
+
+#: advance/theme-options.php:3727
+msgid "Display anchors in address bar"
+msgstr "Prikaži sidra u adresni bar"
+
+#: advance/theme-options.php:1252 advance/theme-options.php:1988
+msgid "Display it on mobiles"
+msgstr "Prikaži ga na mobilnim uređajima"
+
+#: advance/theme-options.php:2211
+msgid "Display of posts video"
+msgstr "Prikaz postova video"
+
+#: advance/theme-options.php:2203 advance/theme-options.php:2418
+msgid "Display post Media"
+msgstr "Prikaži post Mediji"
+
+#: advance/theme-options.php:2253 advance/theme-options.php:2468
+msgid "Displays list of post tags under a post content."
+msgstr "Prikazuje listu post oznaka pod sadržajem posta."
+
+#: advance/admin/admin.php:10
+msgid "Do You want to delete selected One Page Navigation Pointer?"
+msgstr "Želite li izbrisati izabrani Pokazivač navigacije za jednu stranicu?"
+
+#: advance/posterity.php:122
+msgid "Do not show this notification again"
+msgstr "Ne prikazi ovo obaveštenje ponovo"
+
+#: advance/theme-options.php:600 advance/theme-options.php:609
+#: advance/theme-options.php:618
+msgid "Does not work for footer widgets."
+msgstr "Ne radi za widgete podnožja."
+
+#: advance/theme-options.php:339
+msgid "Dots"
+msgstr "Tacke"
+
+#: advance/theme-options.php:878
+msgid "Drag and drop to change order of icons. Only filled links will show up as social icons."
+msgstr "Povucite i ispustite da biste promijenili redored ikona. Samo popunjeni linkovi će se pojaviti kao društvene ikone."
+
+#: advance/theme-options.php:121
+msgid "Drop"
+msgstr "Baci"
+
+#: advance/theme-options.php:2112 advance/theme-options.php:2769
+msgid "Each row from new line"
+msgstr "Svaki red iz nove linije"
+
+#: attachment.php:86
+msgid "Edit"
+msgstr "Uredi"
+
+#: advance/inc/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "Vanjski Izvor"
+
+#: advance/theme-options.php:681
+msgid "Fall down"
+msgstr "Padni dolje"
+
+#: advance/theme-options.php:841 advance/theme-options.php:849
+msgid "First paragraph"
+msgstr "Prvi odlomak"
+
+#: advance/theme-options.php:327
+msgid "Flash"
+msgstr "Fleš"
+
+#: advance/inc/customizer/controls/posterity-class-a13-customize-font-control.php:78
+msgid "Font Family"
+msgstr "Porodica fontova"
+
+#: advance/inc/customizer/controls/posterity-class-a13-customize-font-control.php:99
+msgid "Font Subsets"
+msgstr "Podseci fontova"
+
+#: advance/inc/customizer/controls/posterity-class-a13-customize-font-control.php:106
+msgid "Font Weights & Styles"
+msgstr "Utezi fonta i stilovi"
+
+#: advance/theme-options.php:708
+msgid "Font for Titles/Headings:"
+msgstr "Font za naslove/naslove:"
+
+#: advance/theme-options.php:698
+msgid "Font for main navigation menu and overlay menu:"
+msgstr "Font za glavni navigacijski meni i meni preklapanje:"
+
+#: advance/theme-options.php:718
+msgid "Font for normal(content) text:"
+msgstr "Font za normalan(sadržaj) tekst:"
+
+#: advance/theme-options.php:728
+msgid "Font for text logo:"
+msgstr "Font za logo teksta:"
+
+#: advance/theme-options.php:575 advance/theme-options.php:587
+#: advance/theme-options.php:643 advance/theme-options.php:775
+#: advance/theme-options.php:785 advance/theme-options.php:831
+#: advance/theme-options.php:932 advance/theme-options.php:942
+#: advance/theme-options.php:997 advance/theme-options.php:1052
+#: advance/theme-options.php:1397 advance/theme-options.php:1498
+#: advance/theme-options.php:1637 advance/theme-options.php:1951
+#: advance/theme-options.php:3310 advance/theme-options.php:3389
+msgid "Font size"
+msgstr "Veličina slova"
+
+#: advance/theme-options.php:761 advance/theme-options.php:1062
+#: advance/theme-options.php:1408 advance/theme-options.php:1531
+#: advance/theme-options.php:1648 advance/theme-options.php:1963
+#: advance/theme-options.php:3399
+msgid "Font weight"
+msgstr "Težina fonta"
+
+#: advance/theme-options.php:689
+msgid "Fonts settings"
+msgstr "Postavke fontova"
+
+#: advance/theme-options.php:383 advance/theme-options.php:392
+msgid "Footer"
+msgstr "Podnožje"
+
+#: advance/sidebars.php:42
+msgid "Footer widget area"
+msgstr "Područje widgeta podnožja"
+
+#: advance/theme-options.php:1305 advance/theme-options.php:1686
+msgid "For example Retina(iPhone/iPad) screen has HIGH DPI screen."
+msgstr "Na primjer Retina(iPhone/iPad) ekran ima HIGH DPI ekran."
+
+#: advance/theme-options.php:158
+msgid "Front page"
+msgstr "Glavna"
+
+#. translators: %s - size in pixels
+#: attachment.php:74
+msgid "Full size is %s pixels"
+msgstr "Puna veličina je %s piksela"
+
+#: advance/meta.php:728
+msgid "General"
+msgstr "Uopšteno"
+
+#: advance/theme-options.php:181
+msgid "General layout"
+msgstr "Opći raspored"
+
+#: advance/theme-options.php:149 advance/theme-options.php:1883
+msgid "General settings"
+msgstr "Opšte postavke"
+
+#: advance/admin/posterityinfo-pages.php:50
+msgid "Get Help"
+msgstr "Dovezi pomoć"
+
+#. translators: "Go back" link
+#: no-content.php:15
+msgid "Go back"
+msgstr "Vrati se"
+
+#: advance/admin/posterityinfo-pages.php:14
+msgid "Go to Customizer"
+msgstr "Idi na Customizer"
+
+#: advance/admin/posterityinfo-pages.php:10
+msgid "Go to SKT Templates"
+msgstr "Idi na SKT predlošci"
+
+#. translators:  Go to our home page(link) or go back to previous page(link)
+#: 404.php:36
+msgid "Go to our %1$s or go back to %2$s"
+msgstr "Idi u naš %1$s ili se vrati u %2$s"
+
+#: advance/utilities/woocommerce.php:611
+msgid "Go to shop"
+msgstr "Idi u shop"
+
+#: advance/inc/customizer/controls/posterity-class-a13-customize-font-control.php:89
+msgid "Google Webfonts"
+msgstr "Google Webfonts"
+
+#: advance/theme-options.php:333
+msgid "Hand"
+msgstr "Ruku"
+
+#: advance/theme-options.php:1151
+msgid "Header color variants"
+msgstr "Varijante boje zaglavlja"
+
+#: advance/theme-options.php:1101
+msgid "Header settings"
+msgstr "Postavke zaglavlja"
+
+#: advance/theme-options.php:739
+msgid "Headings"
+msgstr "Zaglavlja"
+
+#: advance/theme-options.php:1341
+msgid "Height"
+msgstr "Visina"
+
+#: advance/theme-options.php:448
+msgid "Here you can set your Privacy Policy page"
+msgstr "Ovdje možete postaviti svoju stranicu Politika privatnosti"
+
+#: advance/theme-options.php:627 advance/sidebars.php:32
+msgid "Hidden sidebar"
+msgstr "Skrivena bočna traka"
+
+#. translators: 1: plugin name.
+#: advance/inc/class-tgm-plugin-activation.php:3509
+#: advance/inc/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "Sakrij detalje"
+
+#: advance/theme-options.php:275
+msgid "Hide event"
+msgstr "Sakrij događaj"
+
+#: advance/theme-options.php:841
+msgid "Highlight"
+msgstr "Isticanje"
+
+#: advance/theme-options.php:1121 advance/theme-options.php:2101
+msgid "Horizontal"
+msgstr "Horizontalni"
+
+#: advance/theme-options.php:1461
+msgid "Hover effect"
+msgstr "Efekt lebdečeg lebdečeg"
+
+#: advance/theme-options.php:2108 advance/theme-options.php:2765
+msgid "How to place items in rows"
+msgstr "Kako se stavke smještaju u redove"
+
+#: advance/theme-options.php:983 advance/theme-options.php:990
+#: advance/theme-options.php:997 advance/theme-options.php:1008
+msgid "Icon"
+msgstr "Ikona"
+
+#: advance/theme-options.php:2984
+msgid "If disabled it will display standard WooCommerce thumbnails."
+msgstr "Ako je onemogućen, prikazaće standardne Sličice WooCommercea."
+
+#: advance/theme-options.php:3735
+msgid "If enabled it will scroll to anchor after it is clicked on the same page. It can, however, conflict with plugins that uses the same mechanism, and the page can scroll in a weird way. In such case disable this feature."
+msgstr "Ako je omogućeno, ona će se odmaknuti do sidra nakon što se klikne na istu stranicu. Može, međutim, da se sukobi sa čepovima koji koriste isti mehanizam, a stranica se može pomaknuti na čudan način. U takvom slučaju onemogući ovu osobinu."
+
+#: advance/theme-options.php:842
+msgid "If enabled, it highlights(font size and color) the first paragraph in the content(blog, post, page)."
+msgstr "Ako je omogućeno, ističe(veličina fonta i boja) prvi pasus u sadržaju(blog, post, stranica)."
+
+#: advance/theme-options.php:907
+msgid "If enabled, the theme will use a lightbox to display images in the post content. To work properly, Images should link to \"Media File\"."
+msgstr "Ako je omogućena, tema će koristiti lightbox za prikazivanje slika u sadržaju posta. Da bi ispravno radili, Images bi trebalo da se poveže sa \"Media File\"."
+
+#: advance/theme-options.php:1913
+msgid "If left empty then the text will not be displayed."
+msgstr "Ako je ostao prazan onda tekst neće biti prikazan."
+
+#. translators: %s: URL
+#: advance/theme-options.php:169
+msgid "If you choose <strong>Page</strong> then make sure that in <a href=\"%s\">WordPress Homepage Settings</a> you have selected <strong>A static page</strong>, that you wish to use as the front page."
+msgstr "Ako odaberete <strong>Page onda</strong> se pobrinite da u <a href=\"%s\">WordPress Homepage Settings</a> ste izabrali <strong>Statičnu</strong>stranicu , koju želite koristiti kao naslovnu stranicu."
+
+#: advance/theme-options.php:1480
+msgid "If you disable this then menu will not switch to mobile menu. You should consider disabling this option only if you have a clean header with a short menu."
+msgstr "Ako onemogućite ovo onda se meni neće prebaciti na meni za mobilne uređaje. Trebalo bi da razmotrite ometanju ove opcije samo ako imate čisto zaglavlje sa kratkim meniom."
+
+#: advance/theme-options.php:375
+msgid "If you do not plan to use theme header or want to replace it with something else, just disable it here."
+msgstr "Ako ne planirate koristiti zaglavlje teme ili ga želite zamijeniti s nečim drugim, samo ga onemogućite ovdje."
+
+#: advance/posterity.php:114
+msgid "If you have a spare 2 minutes please rate Posterity theme. If not, no big deal, just keep on rocking :-)"
+msgstr "Ako imate rezervna 2 minuta, molimo vas da ocedite temu \"Posterity\". Ako ne, ništa strašno, samo nastavi da ljuljaš :-)"
+
+#. translators: %s: URL
+#: advance/theme-options.php:459 advance/theme-options.php:1222
+msgid "If you need to edit social links go to <a href=\"%s\">Social icons</a> settings."
+msgstr "Ako trebate uređivati društvene veze idite na <a href=\"%s\">Postavke društvenih</a> ikona."
+
+#: advance/meta.php:406
+msgid "If you use Elementor or WPBakery Page Builder, then you can decide to show header after the content is scrolled to Nth row. Thanks to that you can have a clean welcome screen."
+msgstr "Ako koristite Elementor ili WPBakery Page Builder, onda možete odlučiti da pokažete zaglavlje nakon što se sadržaj pomjeri na Nth red. Zahvaljujući tome možete imati čist ekran dobrodošlice."
+
+#: advance/theme-options.php:1374
+msgid "If you use more than one word in the logo, you can use <code>&amp;nbsp;</code> instead of a white space, so the words will not break into many lines."
+msgstr "Ako koristite više od jedne riječi u logotipu, možete koristiti umjesto bijelog prostora, tako da se riječi neće razbiti u mnoge <code>&amp;nbsp;</code> linije."
+
+#: advance/theme-options.php:1275
+msgid "If you want to be able to change the logo in header color variants (light and dark variants) or in the sticky header variant, then enable this option."
+msgstr "Ako želite da budete u mogućnosti da promenite logotip u varijantama boja zaglavlja (svetlosne i tamne varijante) ili u varijanti lepljiva zaglavlja, onda omogućite ovu opciju."
+
+#. translators: %s: Customizer JS URL
+#: advance/theme-options.php:1376
+msgid "If you want to change the font for logo go to <a href=\"%s\">Font settings</a>."
+msgstr "Ako želite promijeniti font za logotip idite na <a href=\"%s\">Postavke fonta</a>."
+
+#: advance/theme-options.php:534
+msgid "If you want to have a different color in the lower part than in the footer widgets."
+msgstr "Ako želite imati drugačiju boju u donjem dijelu nego u widgetima podnožja."
+
+#: advance/theme-options.php:1152
+msgid "If you want to use theme header color variants(light and dark variants) or the sticky header variant, then enable this option. Some settings of the header can then be overridden in color & sticky variants."
+msgstr "Ako želite koristiti varijante boja zaglavlja teme (varijante svijetle i tamne) ili ljepljivo zaglavlje varijantu, onda omogućite ovu opciju. Neke postavke zaglavlja tada mogu biti premosćene u varijantama boja i ljepljiva."
+
+#: advance/theme-options.php:888
+msgid "If you wish to use some other plugin/script for images and items, you can switch off default theme lightbox. If you are planning to use different lightbox script instead, then you will have to do some extra work with scripting to make it work in every theme place."
+msgstr "Ako želite koristiti neki drugi dodatak/skriptu za slike i stavke, možete isključiti zadani tematski lightbox. Ako planirate umjesto toga koristiti različitu lightbox skriptu, onda ćete morati napraviti neki dodatni posao sa skriptopisom kako bi to funkcioniralo na svakom tematskom mjestu."
+
+#: advance/theme-options.php:2109 advance/theme-options.php:2766
+msgid "If your items have different heights, you can start each row of items from a new line instead of the masonry style."
+msgstr "Ako vaše stavke imaju različite visine, možete pokrenuti svaki red stavki iz nove linije umjesto stila masonry."
+
+#: advance/theme-options.php:1304 advance/theme-options.php:1685
+msgid "Image for HIGH DPI screen"
+msgstr "Slika za HIGH DPI ekran"
+
+#: advance/theme-options.php:2180
+msgid "In the Manual mode, excerpts are used only if you add the \"Read More Tag\" (&lt;!--more--&gt;).<br /> In the Automatic mode, if you will not provide the \"Read More Tag\" or explicit excerpt, the content of the post will be truncated automatically.<br /> This setting only concerns blog list, archive list, search results."
+msgstr "U Ručnom režimu, izvadci se koriste samo ako dodate \"Read More Tag\" (&lt;!--more--&gt;).<br /> U automatskom režimu, ako nećete osigurati \"Read More Tag\" ili eksplicitni izvadk, sadržaj posta će biti automatski skraćen.<br /> Ova postavka se tiče samo liste blogova, spiska arhiva, rezultata pretrage."
+
+#. translators:  %1$s is memory available and %2$s is link to "Increasing
+#. memory allocated to PHP" article
+#: advance/admin/posterityinfo-pages-functions.php:59
+#: advance/admin/posterityinfo-pages-functions.php:63
+#: advance/admin/posterityinfo-pages-functions.php:67
+msgid "Increasing memory allocated to PHP"
+msgstr "Povećanje memorije dodijeljene PHP-u"
+
+#: advance/theme-options.php:328
+msgid "Indicator"
+msgstr "Indikator"
+
+#: advance/theme-options.php:337
+msgid "Infinity"
+msgstr "Beskonačnost"
+
+#: advance/admin/posterityinfo-pages.php:49
+msgid "Info"
+msgstr "Info"
+
+#: advance/inc/class-tgm-plugin-activation.php:2717
+#: advance/class-posterity-framework.php:946
+msgid "Install"
+msgstr "Instaliraj"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: advance/inc/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr "Instaliraj %2$s"
+
+#: advance/inc/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "Instalirajte dodatke"
+
+#: advance/inc/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "Instalirajte potrebne dodatke"
+
+#. translators: 1: install status, 2: update status
+#: advance/inc/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: advance/inc/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "Instalirano ali nije aktivirano"
+
+#: advance/inc/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "Instalirana verzija:"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: advance/inc/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalacija Plugina %1$s (%2$d/%3$d)"
+
+#. translators: %s: plugin name.
+#: advance/inc/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr "Instalacija dodatka: %s"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: advance/inc/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Instaliranje i aktiviranje Plugina %1$s (%2$d/%3$d)"
+
+#: advance/theme-options.php:2120 advance/theme-options.php:2777
+msgid "It is a maximum number of columns displayed on larger devices. On smaller devices, it can be a lower number of columns."
+msgstr "To je maksimalan broj kolona prikazanih na većim uređajima. Na manjim uređajima može biti manji broj stupova."
+
+#: advance/theme-options.php:628
+msgid "It is active only if it contains active widgets. After activation, displays the opening button in the header."
+msgstr "Aktivan je samo ako sadrži aktivne widgete. Nakon aktivacije prikazuje dugme za otvaranje u zaglavlju."
+
+#: advance/sidebars.php:38
+msgid "It is always available sidebar (but only active if WooCommerce is installed and activated), that is activated by clicking on the icon in the header. You should put a shopping cart widget there, as well as, for example, several special widgets."
+msgstr "Uvijek je dostupna bocna traka (ali aktivna samo ako je WooCommerce instaliran i aktiviran), to se aktivira klikom na ikonu u zaglavlju. Trebalo bi da tamo stavite widget za šoping kolica, kao i, na primer, nekoliko specijalnih widgeta."
+
+#: advance/sidebars.php:33
+msgid "It is always available sidebar, that is activated by clicking on the icon in the header. Good for some special menus or other tips/information for the user."
+msgstr "Uvijek je dostupna bocna traka, koja se aktivira klikom na ikonu u zaglavlju. Dobro za neke posebne menije ili druge savjete/informacije za korisnika."
+
+#: advance/theme-options.php:925 advance/theme-options.php:943
+msgid "It only affects the widgets in the vertical sidebars."
+msgstr "Utiče samo na widgete u vertikalnim bocnim trakama."
+
+#: advance/theme-options.php:786
+msgid "It will be used on devices less than 768 pixels wide."
+msgstr "Koristit će se na uređajima širokim manje od 768 piksela."
+
+#: advance/theme-options.php:2702
+msgid "It will change WordPress default search function to make shop search. So when this is activated search function in header or search widget will act as WooCommerece search widget."
+msgstr "To će promijeniti WordPress zadanu funkciju pretraživanja kako bi trgovina pretraživanje. Dakle, kada je ovo aktivirana funkcija pretraživanja u zaglavlju ili traži widget će djelovati kao WooCommerece widget pretraživanja."
+
+#: advance/theme-options.php:807
+msgid "It will change the default white background color that is set under content on pages, blog, posts"
+msgstr "Promijenit će zadanu boju bijele pozadine koja je postavljena pod sadržajem na stranicama, blogu, postovima"
+
+#: advance/theme-options.php:1462 advance/theme-options.php:1524
+#: advance/theme-options.php:1787
+msgid "It works only for first level links."
+msgstr "Radi samo za linkove prvog nivoa."
+
+#: advance/theme-options.php:1313 advance/theme-options.php:1417
+#: advance/theme-options.php:1697 advance/theme-options.php:1727
+msgid "It works only on large screens(1025px wide or more)."
+msgstr "Radi samo na velikim ekranima(1025px širok ili više)."
+
+#: advance/theme-options.php:1328 advance/theme-options.php:1431
+#: advance/theme-options.php:1712 advance/theme-options.php:1741
+msgid "It works only on mobile devices(1024px wide or less)."
+msgstr "Radi samo na mobilnim uređajima(1024px širok ili manji)."
+
+#: advance/theme-options.php:2787
+msgid "Items per page"
+msgstr "Stavke po stranici"
+
+#: advance/theme-options.php:340
+msgid "Jet-Pack-Man"
+msgstr "Jet-Pack-Man"
+
+#: advance/theme-options.php:220
+msgid "Layout"
+msgstr "Izgled"
+
+#: advance/theme-options.php:2153 advance/theme-options.php:2160
+#: advance/theme-options.php:2807 advance/theme-options.php:2814
+msgid "Lazy load"
+msgstr "Lijeni teret"
+
+#: advance/theme-options.php:1342
+msgid "Leave empty if you do not need anything fancy"
+msgstr "Ostavite prazno ako vam ne treba ništa otmjeno"
+
+#: advance/theme-options.php:63 advance/theme-options.php:666
+#: advance/theme-options.php:2087 advance/theme-options.php:2409
+#: advance/theme-options.php:2727 advance/theme-options.php:2974
+#: advance/inc/customizer/controls/posterity-class-a13-customize-spacing-control.php:43
+msgid "Left"
+msgstr "Lijevo"
+
+#: advance/inc/customizer/controls/posterity-class-a13-customize-font-control.php:124
+msgid "Letter Spacing"
+msgstr "Razmak između slova"
+
+#: advance/theme-options.php:898
+msgid "Light Gallery"
+msgstr "Galerija svjetlosti"
+
+#: advance/theme-options.php:887
+msgid "Lightbox settings"
+msgstr "Postavke lightboxa"
+
+#: advance/theme-options.php:1934
+msgid "Link"
+msgstr "Link"
+
+#: attachment.php:77
+msgid "Link to full-size image"
+msgstr "Link na sliku u punoj veličini"
+
+#: advance/theme-options.php:608 advance/theme-options.php:617
+#: advance/theme-options.php:819 advance/theme-options.php:825
+#: advance/theme-options.php:877 advance/theme-options.php:1509
+#: advance/theme-options.php:1516 advance/theme-options.php:1523
+#: advance/theme-options.php:1623 advance/theme-options.php:1630
+#: advance/theme-options.php:1774 advance/theme-options.php:1780
+#: advance/theme-options.php:1786
+msgid "Links"
+msgstr "Linkovi"
+
+#: advance/theme-options.php:2476
+msgid "Links to next and prev post."
+msgstr "Linkovi na sljedeći i prev post."
+
+#: advance/admin/posterityinfo-pages.php:105
+msgid "Live preview"
+msgstr "Pregled uživo"
+
+#: advance/head-scripts-styles.php:126
+msgid "Load more"
+msgstr "Učitaj više"
+
+#: advance/head-scripts-styles.php:127
+msgid "Loading next items"
+msgstr "Učitavanje sljedećih stavki"
+
+#: advance/theme-options.php:1265 advance/theme-options.php:1674
+#: advance/theme-options.php:1685 advance/theme-options.php:1696
+#: advance/theme-options.php:1711 advance/theme-options.php:1726
+#: advance/theme-options.php:1740 advance/theme-options.php:1754
+#: advance/theme-options.php:1764
+msgid "Logo"
+msgstr "Logo"
+
+#: advance/theme-options.php:2736 advance/theme-options.php:2746
+msgid "Look of products on list"
+msgstr "Izgled proizvoda na listi"
+
+#: advance/theme-options.php:533 advance/theme-options.php:575
+#: advance/theme-options.php:599 advance/theme-options.php:608
+#: advance/theme-options.php:617
+msgid "Lower part"
+msgstr "Donji dio"
+
+#: advance/theme-options.php:1445 advance/theme-options.php:1454
+#: advance/theme-options.php:1774 advance/theme-options.php:1780
+#: advance/theme-options.php:1786
+msgid "Main Menu"
+msgstr "Glavni meni"
+
+#: advance/utilities/header.php:250
+msgid "Main menu"
+msgstr "Glavni meni"
+
+#: no-content.php:20
+msgid "Main navigation"
+msgstr "Glavna navigacija"
+
+#: advance/theme-options.php:775 advance/theme-options.php:785
+#: advance/theme-options.php:932
+msgid "Main titles"
+msgstr "Glavni naslovi"
+
+#: advance/theme-options.php:2184
+msgid "Manual"
+msgstr "Priručnik"
+
+#: advance/head-scripts-styles.php:202
+msgid "Mark item"
+msgstr "Označi stavku"
+
+#: advance/theme-options.php:2111 advance/theme-options.php:2768
+msgid "Masonry"
+msgstr "Zidarstvo"
+
+#: advance/admin/posterityinfo-pages-functions.php:133
+msgid "Max Upload Size"
+msgstr "Maksimalna veličina uploada"
+
+#: advance/theme-options.php:1312 advance/theme-options.php:1327
+#: advance/theme-options.php:1696 advance/theme-options.php:1711
+msgid "Max width"
+msgstr "Maksimalna širina"
+
+#: advance/posterity.php:120
+msgid "Maybe later&#8230;(hide for 7 days)"
+msgstr "Možda kasnije... (sakriti se 7 dana)"
+
+#: advance/theme-options.php:1554
+msgid "Mega-Menu separator color"
+msgstr "Boja razdvojnika mega-menija"
+
+#: advance/inc/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "Minimalna potrebna verzija:"
+
+#: advance/theme-options.php:3709
+msgid "Miscellaneous"
+msgstr "Razno"
+
+#: advance/theme-options.php:1470 advance/theme-options.php:1491
+#: advance/theme-options.php:1799
+msgid "Mobile menu"
+msgstr "Meni za mobilne uređaje"
+
+#. translators: %s - month
+#: index.php:58
+msgid "Monthly Archives: %s"
+msgstr "Mjesečne Arhive: %s"
+
+#: advance/utilities/header.php:249
+msgid "More info"
+msgstr "Više informacija"
+
+#: advance/theme-options.php:229
+msgid "Mouse cursor"
+msgstr "Kurser miša"
+
+#: advance/inc/customizer/controls/posterity-class-a13-customize-sidebars-control.php:49
+msgid "Name of sidebar"
+msgstr "Ime bočne trake"
+
+#: advance/theme-options.php:503 advance/theme-options.php:1165
+msgid "Narrow"
+msgstr "Suzi"
+
+#: advance/theme-options.php:1174
+msgid "Narrow the entire header as well"
+msgstr "Suzite i cijelo zaglavlje"
+
+#: advance/utilities/woocommerce.php:334
+msgid "New"
+msgstr "Novo u ponudu"
+
+#: advance/utilities/posts.php:392
+msgid "Newer Comments"
+msgstr "Noviji komentari"
+
+#: advance/utilities/posts.php:277
+msgid "Next article"
+msgstr "Sljedeći članak"
+
+#. translators: 1: plugin name.
+#: advance/inc/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Ne poduzimam ništa. Plugin %1$s je već bio aktivan."
+
+#: advance/theme-options.php:1130
+msgid "No hiding sticky"
+msgstr "Nema skrivanja ljepljivo"
+
+#: advance/inc/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "Nema plugina koji se trenutno mogu aktivirati."
+
+#: advance/inc/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "Trenutno nema plugina koji će biti instalirani."
+
+#: advance/inc/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "Nema plugina na raspolaganju da budu ažurirani u ovom trenutku."
+
+#: advance/inc/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "Nema plugina za instalirati ili aktivirati."
+
+#: advance/inc/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Nijedan plugin nije izabran da bude aktiviran. Ne poduzimam ništa."
+
+#: advance/inc/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Nijedan plugin nije izabran da bude instaliran. Ne poduzimam ništa."
+
+#: advance/inc/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Nijedan plugin nije izabran da bude ažuriran. Ne poduzimam ništa."
+
+#: advance/theme-options.php:16 advance/theme-options.php:57
+#: advance/theme-options.php:126 advance/admin/print-options.php:299
+msgid "None"
+msgstr "Ništa"
+
+#: advance/theme-options.php:231
+msgid "Normal"
+msgstr "Normalno"
+
+#: advance/theme-options.php:47
+msgid "Normal 400"
+msgstr "Normalno 400"
+
+#: advance/inc/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "Nije instalirano"
+
+#: advance/theme-options.php:2191
+msgid "Number of words to cut post"
+msgstr "Broj riječi za rezati post"
+
+#: advance/meta.php:363 advance/theme-options.php:27
+#: advance/theme-options.php:2089 advance/theme-options.php:2411
+#: advance/theme-options.php:2729 advance/theme-options.php:2976
+#: advance/theme-options.php:3478
+msgid "Off"
+msgstr "Ugašeno"
+
+#: advance/utilities/posts.php:388
+msgid "Older Comments"
+msgstr "Stariji komentari"
+
+#: advance/theme-options.php:278
+msgid "On DOM ready"
+msgstr "Na DOM spreman"
+
+#: advance/theme-options.php:545 advance/theme-options.php:656
+#: advance/theme-options.php:3323
+msgid "On dark"
+msgstr "U mraku"
+
+#: advance/theme-options.php:546 advance/theme-options.php:657
+#: advance/theme-options.php:3324
+msgid "On light"
+msgstr "Na svjetlu"
+
+#: advance/theme-options.php:279
+msgid "On load"
+msgstr "Na teretu"
+
+#: advance/theme-options.php:2163 advance/theme-options.php:2817
+msgid "On scroll"
+msgstr "Na svitku"
+
+#: advance/theme-options.php:1142
+msgid "One line, logo on side"
+msgstr "Jedna linija, logo na strani"
+
+#: advance/theme-options.php:1143
+msgid "One line, menu centered"
+msgstr "Jedan red, meni centriiran"
+
+#: advance/admin/posterityinfo-pages.php:28
+msgid "Online Documentation"
+msgstr "Online dokumentacija"
+
+#: advance/admin/posterityinfo-pages.php:30
+msgid "Online documentation is always most up to date if it comes to explaining how to work with the theme. It will come handy as the first source when you are trying to work out problematic topics."
+msgstr "Online dokumentacija je uvijek najviše aћurcna ako je u pitanju objaљnjenje kako raditi sa temom. Dobro će vam doći kao prvi izvor kada pokušavate da izradite problematične teme."
+
+#. translators: %s: Children Navigation
+#: advance/meta.php:358
+msgid "Only %s on the left"
+msgstr "Samo %s na lijevoj strani"
+
+#. translators: %s: Children Navigation
+#: advance/meta.php:362
+msgid "Only %s on the right"
+msgstr "Samo %s desno"
+
+#: advance/theme-options.php:3474
+msgid "Only children Navigation on the left"
+msgstr "Samo djeca Navigacija na lijevoj strani"
+
+#: advance/theme-options.php:3477
+msgid "Only children Navigation on the right"
+msgstr "Samo djeca Navigacija desno"
+
+#: advance/theme-options.php:870
+msgid "Only icons"
+msgstr "Samo ikone"
+
+#: advance/theme-options.php:1353 advance/theme-options.php:1363
+msgid "Opacity"
+msgstr "Neprozirnost"
+
+#: advance/theme-options.php:1942
+msgid "Open link in new tab"
+msgstr "Otvori vezu u novoj kartici"
+
+#: advance/theme-options.php:674
+msgid "Opening effect"
+msgstr "Efekt otvaranja"
+
+#: advance/theme-options.php:1569 advance/theme-options.php:1596
+msgid "Opening icon"
+msgstr "Ikona otvaranja"
+
+#: advance/theme-options.php:1561
+msgid "Opening/Closing icons"
+msgstr "Ikone otvaranja/zatvaranja"
+
+#: advance/meta.php:578 advance/theme-options.php:2363
+#: advance/theme-options.php:2618 advance/theme-options.php:2928
+#: advance/theme-options.php:3122 advance/theme-options.php:3275
+#: advance/theme-options.php:3633
+msgid "Other elements"
+msgstr "Ostali elementi"
+
+#: advance/theme-options.php:3147 advance/theme-options.php:3174
+msgid "Other shop pages"
+msgstr "Ostale stranice prodavnice"
+
+#: advance/utilities/woocommerce.php:325
+msgid "Out of stock"
+msgstr "Nema na stanju"
+
+#: advance/meta.php:754
+msgid "Overlay"
+msgstr "Prekriveno"
+
+#: advance/theme-options.php:1665
+msgid "Override normal settings"
+msgstr "Premosti normalne postavke"
+
+#: advance/admin/posterityinfo-pages-functions.php:118
+msgid "PHP Post Max Size"
+msgstr "PHP Post Max Size"
+
+#: advance/admin/posterityinfo-pages-functions.php:97
+msgid "PHP Time Limit"
+msgstr "PHP ograničenje vremena"
+
+#: advance/admin/posterityinfo-pages-functions.php:75
+msgid "PHP Version"
+msgstr "PHP verzija"
+
+#: advance/theme-options.php:1076 advance/theme-options.php:1416
+#: advance/theme-options.php:1430 advance/theme-options.php:1726
+#: advance/theme-options.php:1740 advance/theme-options.php:3413
+msgid "Padding"
+msgstr "Padding"
+
+#: advance/theme-options.php:171
+msgid "Page"
+msgstr "Stranica"
+
+#: advance/admin/metaboxes.php:62 advance/admin/metaboxes.php:73
+#: advance/admin/metaboxes.php:83
+msgid "Page details"
+msgstr "Detalji stranice"
+
+#: advance/theme-options.php:258 advance/theme-options.php:267
+msgid "Page preloader"
+msgstr "Preloader stranice"
+
+#: advance/theme-options.php:3428
+msgid "Page settings"
+msgstr "Podešavanje stranice"
+
+#: advance/sidebars.php:22
+msgid "Page sidebar"
+msgstr "Bočna traka stranice"
+
+#: no-content.php:38
+msgid "Pages"
+msgstr "Stranice"
+
+#: advance/theme-options.php:3684
+msgid "Password protected page template"
+msgstr "Predložak stranice zaštićen lozinkom"
+
+#: advance/inc/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "Kontaktirajte administratora za pomoć."
+
+#: advance/inc/class-tgm-plugin-activation.php:934
+#: advance/inc/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Kontaktirajte plugin provajdera i zamolite ih da pakuju svoj plugin u skladu sa smjernicama riječi."
+
+#: advance/inc/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "Plugin"
+
+#: advance/inc/class-tgm-plugin-activation.php:387
+#: advance/inc/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "Plagin je uspješno aktiviran."
+
+#: advance/inc/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "Aktivacija plagina neuspješna."
+
+#. translators: 1: plugin name.
+#: advance/inc/class-tgm-plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Plugin nije aktiviran. Za ovu temu potrebna je viša verzija %s. Molim vas, ažurirajte plugin."
+
+#: advance/theme-options.php:332
+msgid "Plus minus"
+msgstr "Plus minus"
+
+#: advance/theme-options.php:123
+msgid "Pop text"
+msgstr "Pop tekst"
+
+#: advance/theme-options.php:3294
+msgid "Pop up basket"
+msgstr "Pop up koš"
+
+#: advance/theme-options.php:2219 advance/theme-options.php:2231
+#: advance/theme-options.php:2238 advance/theme-options.php:2245
+#: advance/theme-options.php:2434 advance/theme-options.php:2446
+#: advance/theme-options.php:2453 advance/theme-options.php:2460
+msgid "Post info"
+msgstr "Post info"
+
+#: advance/theme-options.php:2096
+msgid "Post look"
+msgstr "Post look"
+
+#: advance/sidebars.php:17
+msgid "Post sidebar"
+msgstr "Post sidebar"
+
+#: advance/admin/posterityinfo-pages.php:13
+msgid "Posterity theme options help you with making your site beautiful."
+msgstr "Opcije teme posterity vam pomažu da vaš sajt bude lijep."
+
+#: advance/theme-options.php:2002
+msgid "Posts list refers to Blog, Search and Archives pages"
+msgstr "Lista postova se odnosi na stranice Blog, Pretraživanje i Arhiva"
+
+#: advance/theme-options.php:2475
+msgid "Posts navigation"
+msgstr "Postovi  Navigacija"
+
+#: advance/inc/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "Prepakovano"
+
+#: advance/theme-options.php:232
+msgid "Predefined"
+msgstr "Unaprijed određeno"
+
+#: advance/utilities/posts.php:269
+msgid "Previous article"
+msgstr "Prethodni članak"
+
+#: advance/theme-options.php:447
+msgid "Privacy Policy Link"
+msgstr "Veza politike privatnosti"
+
+#: advance/theme-options.php:2692 advance/theme-options.php:2826
+msgid "Products list"
+msgstr "Lista proizvoda"
+
+#: advance/theme-options.php:2222 advance/theme-options.php:2437
+msgid "Published"
+msgstr "Objavljeno"
+
+#. translators: %1$s - date
+#: attachment.php:61
+msgid "Published %1$s"
+msgstr "Objavljeno %1$s"
+
+#: advance/theme-options.php:678
+msgid "Push"
+msgstr "Guraj"
+
+#: advance/theme-options.php:329
+msgid "Radar"
+msgstr "Radar"
+
+#: advance/inc/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "Preporučeno"
+
+#: advance/theme-options.php:2991
+msgid "Related products"
+msgstr "Slični proizvodi"
+
+#: advance/admin/metaboxes.php:204
+msgid "Remove selected"
+msgstr "Ukloni izabrano"
+
+#: advance/inc/customizer/controls/posterity-class-a13-customize-sidebars-control.php:51
+msgid "Remove this sidebar"
+msgstr "Ukloni ovu bo nu traku"
+
+#: advance/inc/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "Obavezno"
+
+#: advance/inc/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "Obavezno ažuriranje nije dostupno"
+
+#: advance/inc/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "Zahtijeva ažuriranje"
+
+#. translators: %s - title of parent post
+#: attachment.php:41 attachment.php:43
+msgid "Return to %s"
+msgstr "Povratak na %s"
+
+#: advance/inc/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "Povratak na instaler potrbnih dodataka"
+
+#: advance/inc/class-tgm-plugin-activation.php:386
+#: advance/inc/class-tgm-plugin-activation.php:827
+#: advance/inc/class-tgm-plugin-activation.php:2533
+#: advance/inc/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "Povratak na kontrolnu ploču"
+
+#: advance/theme-options.php:677
+msgid "Reveal"
+msgstr "Otkrij"
+
+#: advance/theme-options.php:680
+msgid "Reverse slide out"
+msgstr "Obrnuto klizanje van"
+
+#: advance/theme-options.php:65 advance/theme-options.php:667
+#: advance/theme-options.php:2088 advance/theme-options.php:2410
+#: advance/theme-options.php:2728 advance/theme-options.php:2975
+#: advance/inc/customizer/controls/posterity-class-a13-customize-spacing-control.php:41
+msgid "Right"
+msgstr "Desno"
+
+#: advance/plugins/plugins-list.php:13
+#: advance/class-posterity-framework.php:946
+#: advance/class-posterity-framework.php:956
+#: advance/class-posterity-framework.php:965
+msgid "SKT Templates – Elementor & Gutenberg templates"
+msgstr "SKT Templates – Elementor & Gutenberg templates"
+
+#: advance/utilities/woocommerce.php:330
+msgid "Sale"
+msgstr "Prodaja"
+
+#: advance/inc/customizer/controls/posterity-class-a13-customize-font-control.php:129
+msgid "Sample text with <strong>some bold words</strong>, <em>some italic ones</em> and numbers 1 2 3 4 5 6 7 8 9 :-)"
+msgstr "Uzorak teksta <strong>some bold words</strong>sa nekim podebljanim riječima , nekim <em>italicnim</em> i brojevima 1 2 3 4 5 6 7 8 9 :-)"
+
+#: advance/theme-options.php:125
+msgid "Scale down"
+msgstr "Skaliraj dolje"
+
+#: advance/theme-options.php:3734
+msgid "Scroll to anchor handling"
+msgstr "Odmakni se do rukovanja sidrom"
+
+#: advance/theme-options.php:2701
+msgid "Search in products instead of pages"
+msgstr "Pretraži u proizvodima umjesto stranica"
+
+#: advance/admin/metaboxes.php:198
+msgid "Select/Upload images and videos"
+msgstr "Izaberi/Učitaj slike i video zapise"
+
+#: advance/theme-options.php:115
+msgid "Semi transparent"
+msgstr "Poluprozirno"
+
+#: advance/theme-options.php:564
+msgid "Separator"
+msgstr "Razdvojilac"
+
+#: advance/theme-options.php:1213 advance/theme-options.php:1812
+msgid "Separator and lines color"
+msgstr "Boja razdvojnika i linija"
+
+#: advance/theme-options.php:555
+msgid "Separator between widgets and footer content"
+msgstr "Razdvojivač između widgeta i sadržaja podnožja"
+
+#: advance/admin/posterityinfo-pages-functions.php:29
+msgid "Server/WordPress Environment"
+msgstr "Server/WordPress okruženje"
+
+#: advance/theme-options.php:3148 advance/theme-options.php:3173
+msgid "Settings for cart, checkout, order received and my account pages."
+msgstr "Postavke za kolica, odjavu, narudžbu primljenu i stranice mog računa."
+
+#: advance/theme-options.php:1206 advance/theme-options.php:1805
+msgid "Shadow"
+msgstr "Senka"
+
+#: advance/theme-options.php:122
+msgid "Shift"
+msgstr "Shift"
+
+#: advance/utilities/header.php:247 advance/sidebars.php:27
+msgid "Shop sidebar"
+msgstr "Bočna traka prodavnice"
+
+#: advance/theme-options.php:2644 advance/admin/metaboxes.php:33
+msgid "Shop(WooCommerce) settings"
+msgstr "Shop(WooCommerce) postavke"
+
+#: advance/theme-options.php:2172
+msgid "Should \"Read more\" link be displayed after excerpts on blog list/search results."
+msgstr "Treba \"Pročitaj više\" link biti prikazan nakon izvadka na blog listi/rezultatima pretrage."
+
+#: advance/theme-options.php:1253 advance/theme-options.php:1989
+msgid "Should it be displayed on devices less than 600 pixels wide."
+msgstr "Ako se prikaže na uređajima širokim manje od 600 piksela."
+
+#: advance/theme-options.php:2992
+msgid "Should related products be displayed on single product page."
+msgstr "Trebalo bi da se srodni proizvodi prikazuju na stranici sa jednim proizvodom."
+
+#. translators: 1: plugin name.
+#: advance/inc/class-tgm-plugin-activation.php:3509
+#: advance/inc/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "Prikaži detalje"
+
+#: advance/meta.php:411
+msgid "Show always"
+msgstr "Prikaži uvijek"
+
+#: advance/theme-options.php:120
+msgid "Show cross"
+msgstr "Pokaži križ"
+
+#: advance/meta.php:405
+msgid "Show header from the Nth row"
+msgstr "Prikaži zaglavlje iz reda Nth"
+
+#: advance/theme-options.php:2758
+msgid "Show second image of product on hover"
+msgstr "Prikaži drugu sliku proizvoda na lebdeću lebdeću lebdeću lebdeću lebde"
+
+#: advance/theme-options.php:664
+msgid "Side"
+msgstr "Strani"
+
+#: advance/meta.php:359 advance/meta.php:360 advance/theme-options.php:3475
+msgid "Sidebar on the right"
+msgstr "Boиna traka desno"
+
+#: advance/meta.php:368
+msgid "Sidebar to show"
+msgstr "Bočna traka za pokazivanje"
+
+#: advance/theme-options.php:448
+msgid "Since WordPress 4.9.6 there is an option to set Privacy Policy page. If you enable this option it will display a link to it in the footer after footer content."
+msgstr "Od WordPressa 4.9.6 postoji opcija za namjeљtanje stranice Politika privatnosti. Ako omogućite ovu opciju ona će prikazati vezu do nje u podnožju nakon sadržaja podnožja."
+
+#: advance/theme-options.php:3437 advance/theme-options.php:3514
+msgid "Single page"
+msgstr "Jedna stranica"
+
+#: advance/theme-options.php:2382 advance/theme-options.php:2485
+msgid "Single post"
+msgstr "Jednostruki post"
+
+#: advance/theme-options.php:2947 advance/theme-options.php:3000
+msgid "Single product"
+msgstr "Jednostruki proizvod"
+
+#: advance/class-posterity-framework.php:408
+msgid "Site Navigation"
+msgstr "Navigacija lokacije"
+
+#: header.php:43
+msgid "Skip to content"
+msgstr "Preskoči na sadržaj"
+
+#: advance/theme-options.php:679
+msgid "Slide along"
+msgstr "Klizi uzduž"
+
+#: advance/theme-options.php:676
+msgid "Slide in on top"
+msgstr "Uvuci se na vrh"
+
+#: advance/meta.php:769 advance/theme-options.php:457
+#: advance/theme-options.php:477 advance/theme-options.php:489
+#: advance/theme-options.php:857 advance/theme-options.php:1220
+#: advance/theme-options.php:1230 advance/theme-options.php:1241
+#: advance/theme-options.php:1252 advance/theme-options.php:1860
+#: advance/theme-options.php:1871
+msgid "Social icons"
+msgstr "Društvene ikone"
+
+#: advance/inc/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "Nešto je pošlo na krivo s plugin API-jem."
+
+#: advance/admin/posterityinfo-pages.php:46
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Žao mi je, nije vam dozvoljen pristup ovoj stranici."
+
+#: advance/inc/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "Izvor"
+
+#: advance/theme-options.php:331
+msgid "Square of squares"
+msgstr "Kvadrat kvadrata"
+
+#: advance/theme-options.php:868
+msgid "Squares"
+msgstr "Kvadrati"
+
+#: advance/inc/customizer/controls/posterity-class-a13-customize-font-control.php:81
+msgid "Standard Fonts"
+msgstr "Standardni font"
+
+#: advance/admin/admin.php:135
+msgid "Start typing to filter icons"
+msgstr "Počnite kucati za filtriranje ikona"
+
+#: advance/inc/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "Status"
+
+#: advance/meta.php:658 advance/meta.php:664
+msgid "Sticky One Page mode"
+msgstr "Ljepljivo jedan način rada stranice"
+
+#: advance/theme-options.php:1665
+msgid "Sticky header"
+msgstr "Ljepljivo zaglavlje"
+
+#: advance/theme-options.php:1128
+msgid "Sticky version"
+msgstr "Ljepljiva verzija"
+
+#: advance/theme-options.php:513
+msgid "Style"
+msgstr "Stil"
+
+#: advance/theme-options.php:1596 advance/theme-options.php:1610
+msgid "Submenu 3rd level"
+msgstr "Podmeni 3. nivo"
+
+#: advance/theme-options.php:1547 advance/theme-options.php:1561
+#: advance/theme-options.php:1569 advance/theme-options.php:1583
+#: advance/theme-options.php:1623 advance/theme-options.php:1630
+#: advance/theme-options.php:1637 advance/theme-options.php:1648
+#: advance/theme-options.php:1656
+msgid "Submenu/Mega-Menu"
+msgstr "Podmeni/Mega-Meni"
+
+#: advance/utilities/password.php:13
+msgid "Submit"
+msgstr "Pošalji"
+
+#: advance/meta.php:734
+msgid "Subtitle"
+msgstr "Podnaslov"
+
+#. translators: %s: version number
+#: advance/inc/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#. translators: %s - tag name
+#: index.php:52
+msgid "Tag Archives: %s"
+msgstr "Objave pod oznakom: %s"
+
+#: advance/theme-options.php:2252 advance/theme-options.php:2467
+msgid "Tags"
+msgstr "Oznake"
+
+#: advance/meta.php:741
+msgid "Testimonial"
+msgstr "Pohvala"
+
+#: advance/theme-options.php:336
+msgid "Tetromino"
+msgstr "Tetromino"
+
+#: advance/theme-options.php:1289 advance/theme-options.php:1373
+#: advance/theme-options.php:1912
+msgid "Text"
+msgstr "Tekst"
+
+#: advance/theme-options.php:2738
+msgid "Text as overlay"
+msgstr "Tekst kao preliv"
+
+#: advance/theme-options.php:768 advance/theme-options.php:1069
+#: advance/theme-options.php:1539 advance/theme-options.php:1656
+#: advance/theme-options.php:3406
+msgid "Text transform"
+msgstr "Transformacija teksta"
+
+#: advance/theme-options.php:2739
+msgid "Text under photo"
+msgstr "Tekst pod fotografijom"
+
+#: advance/theme-options.php:2749
+msgid "Texts to center"
+msgstr "Tekstovi u centar"
+
+#: advance/theme-options.php:2748
+msgid "Texts to left"
+msgstr "Tekstovi lijevo"
+
+#: advance/theme-options.php:2750
+msgid "Texts to right"
+msgstr "Tekstovi desno"
+
+#: advance/posterity.php:113
+msgid "Thank you for using Posterity theme, we hope everything is working good for you."
+msgstr "Hvala vam što koristite Posterity temu, nadamo se da vam sve dobro ide."
+
+#: advance/admin/posterityinfo-pages.php:63
+msgid "Thanks for using Posterity! We are glad that you have decided to use posterity theme. We hope it will help you with making your site beautiful!"
+msgstr "Hvala što si koristio Posterity! Drago nam je što ste odlučili koristiti temu o posterityju. Nadamo se da će vam pomoći da vaš sajt bude lep!"
+
+#: advance/admin/posterityinfo-pages-functions.php:98
+msgid "The amount of time (in seconds) that your site will spend on a single operation before timing out (to avoid server lockups). Recommended 60 seconds or more for the import process."
+msgstr "Količina vremena (u sekundama) koju će vaša lokacija potrošiti na jednu operaciju prije odlaska vremena (kako bi se izbjeglo zaključavanje servera). Preporučeno 60 sekundi ili više za proces uvoza."
+
+#: advance/admin/posterityinfo-pages-functions.php:37
+msgid "The directory must be writable so downloaded demo data could be saved for the import process."
+msgstr "Direktorij mora biti učitljiv tako da se preuzeti demo podaci mogu sačuvati za proces uvoza."
+
+#. translators: 1: plugin name(s).
+#: advance/inc/class-tgm-plugin-activation.php:347
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "Sljedeći dodatak treba ažurirati na svoju najnoviju verziju kako bi se osigurala maksimalna kompatibilnost sa ovom temom: %1$s."
+msgstr[1] ""
+msgstr[2] ""
+
+#: advance/inc/class-tgm-plugin-activation.php:388
+#: advance/inc/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Sljedeći dodatak je uspješno aktiviran:"
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: 1: plugin name(s).
+#: advance/inc/class-tgm-plugin-activation.php:365
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Sljedeći preporučeni dodatak je trenutno neaktivan: %1$s."
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: 1: plugin name(s).
+#: advance/inc/class-tgm-plugin-activation.php:359
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Sljedeći potrebni plugin je trenutno neaktivan: %1$s."
+msgstr[1] ""
+msgstr[2] ""
+
+#: advance/inc/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Počinje proces instalacije i aktivacije. Ovaj proces može potrajati na nekim hostovima, zato molim vas budite strpljivi."
+
+#. translators: 1: plugin name.
+#: advance/inc/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr "Instalacija  %1$s neuspješna."
+
+#: advance/inc/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Proces instalacije počinje. Ovaj proces može potrajati duže, pa vas molimo za strpljenje."
+
+#: advance/admin/posterityinfo-pages-functions.php:119
+msgid "The largest file size that can be contained in one post. Recommended 64 MB or more."
+msgstr "Najveća veličina datoteke koja se može sadržati u jednom postu. Preporučeno 64 MB ili više."
+
+#: advance/admin/posterityinfo-pages-functions.php:134
+msgid "The largest file size that can be uploaded to your WordPress installation. Recommended 64 MB or more."
+msgstr "Najveća veličina datoteke koja se može uploadati u vašu WordPress instalaciju. Preporučeno 64 MB ili više."
+
+#: advance/admin/posterityinfo-pages-functions.php:50
+msgid "The maximum amount of memory (RAM) that your site can use at one time."
+msgstr "Maksimalna količina memorije (RAM) koju vaša lokacija može koristiti u jednom trenutku."
+
+#: advance/theme-options.php:2131
+msgid "The maximum width of the brick layout"
+msgstr "Maksimalna širina rasporeda cigle"
+
+#: 404.php:33
+msgid "The page you are looking for can't be found!"
+msgstr "Stranica koju tražite ne može se naći!"
+
+#: advance/inc/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "Udaljeni plugin paket sastoji se od jednog fajla, ali datoteke nisu upakovane u fasciklu."
+
+#: advance/inc/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "Daljinski plugin paket ne sadrži fasciklu sa željenim umetkom i preimenovanje nije uspjelo."
+
+#: advance/admin/posterityinfo-pages-functions.php:76
+msgid "The version of PHP installed on your hosting server."
+msgstr "Verzija PHP-a instalirana na vašem hosting serveru."
+
+#: advance/theme-options.php:365 advance/theme-options.php:374
+msgid "Theme Header"
+msgstr "Zaglavlje teme"
+
+#: advance/theme-options.php:366
+msgid "Theme header is a place where you usually find the logo of your site, main menu, and a few other elements."
+msgstr "Zaglavlje teme je mjesto na kojem obično pronađete logotip vaše stranice, glavni meni i još nekoliko elemenata."
+
+#: advance/theme-options.php:896
+msgid "Theme lightbox"
+msgstr "Tematski svjetionik"
+
+#. translators: %1$s: link to customizer, %2$s section name
+#: advance/admin/metaboxes.php:8 advance/admin/metaboxes.php:25
+msgid "Theme options for this page can be found in <a href=\"%1$s\">Appearance -&gt; Customize -&gt; %2$s</a>."
+msgstr "Opcije teme za ovu stranicu možete naći u <a href=\"%1$s\">Izgledu -&gt; Prilagodi -&gt; %2$s </a>."
+
+#: advance/admin/posterityinfo-pages.php:33
+msgid "Theme requirements:"
+msgstr "Zahtjevi teme:"
+
+#: advance/theme-options.php:2983
+msgid "Theme thumbnails"
+msgstr "Sličice teme"
+
+#: advance/admin/print-options.php:309
+msgid "There are no products yet!"
+msgstr "Još nema proizvoda!"
+
+#: advance/inc/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "Postoji jedan ili više zahtijevanih ili preporučenih plugina da se instaliraju, ažuriraju ili aktiviraju."
+
+#: advance/admin/admin.php:9
+msgid "There are rows in content with identical \"Navigation anchor title\" parameter, which has to be unique for each item. Please fix it by editing row parameters. Duplicated titles are:"
+msgstr "Postoje redovi u sadržaju sa identičnim parametrom \"Navigation sidro naslov\", koji mora biti jedinstven za svaku stavku. Molimo vas da ga popravite uređivajući parametre reda. Duplirani naslovi su:"
+
+#. translators: 1: plugin name(s).
+#: advance/inc/class-tgm-plugin-activation.php:353
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Dostupno je ažuriranje za: %1$s."
+msgstr[1] ""
+msgstr[2] ""
+
+#: advance/theme-options.php:858
+msgid "These icons will be used in various places across theme if you decide to activate them."
+msgstr "Ove ikone će se koristiti na raznim mjestima preko teme ako ih odlučite aktivirati."
+
+#: advance/theme-options.php:2655
+msgid "These options will work for all shop pages - product list, single product and other."
+msgstr "Ove opcije će raditi za sve stranice shopa - popis proizvoda, jedan proizvod i ostalo."
+
+#: advance/admin/posterityinfo-pages.php:8
+msgid "This Theme requires an additional plugin before you will be able to use it. "
+msgstr "Ova Tema zahtijeva dodatni dodatak prije nego što ćete ga moći koristiti. "
+
+#: advance/class-posterity-framework.php:969
+msgid "This feature requires SKT Templates plugin to be active and in the proper version."
+msgstr "Ova funkcija zahtijeva da SKT Templates plugin bude aktivan i u odgovarajućoj verziji."
+
+#: advance/inc/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Ovaj plugin mora biti ažuriran da bi bio kompatibilan sa vašom temom."
+
+#. translators: 1: plugin name(s).
+#: advance/inc/class-tgm-plugin-activation.php:341
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Ova tema preporučuje sljedeći dodatak: %1$s."
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: 1: plugin name(s).
+#: advance/inc/class-tgm-plugin-activation.php:335
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Ova tema zahtijeva sljedeći dodatak: %1$s."
+msgstr[1] ""
+msgstr[2] ""
+
+#: advance/theme-options.php:2012
+msgid "This will be the default background for pages related to the blog."
+msgstr "Ovo će biti zadana pozadina za stranice vezane za blog."
+
+#: advance/meta.php:665
+msgid "This works only when page is designed with WPBakery Page Builder. With this option enabled, the page will turn into a vertical slider to the full height of the browser window, and each row created in the WPBakery Page Builder is a single slide."
+msgstr "Ovo radi samo kada je stranica dizajnirana sa WPBakery Page Builderom. Sa ovom opcijom omogućenom, stranica će se pretvoriti u vertikalni klizač na punu visinu prozora preglednika, a svaki red kreiran u WPBakery Page Builder je jedan slajd."
+
+#: advance/theme-options.php:2270 advance/theme-options.php:2494
+#: advance/theme-options.php:2835 advance/theme-options.php:3009
+#: advance/theme-options.php:3182 advance/theme-options.php:3523
+msgid "Title"
+msgstr "Naslov"
+
+#: advance/theme-options.php:2501 advance/theme-options.php:3016
+#: advance/theme-options.php:3530
+msgid "Title position"
+msgstr "Pozicija naslova"
+
+#. translators: 1: number of plugins.
+#: advance/inc/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Aktivirati <span class=\"count\">(%s)</span>"
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: 1: number of plugins.
+#: advance/inc/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Da instalirate <span class=\"count\"> ( %s) </span>"
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: %s: directory name
+#: advance/admin/posterityinfo-pages-functions.php:43
+msgid "To allow import, make %s writable."
+msgstr "Da bi se dozvolio uvoz, učinite %s čitljivim."
+
+#: advance/admin/metaboxes.php:209
+msgid "To mark more items in Media Library and in below list, you can use <code>Ctrl</code>(<code>Cmd</code>) or <code>Shift</code> key while selecting them with mouse."
+msgstr "Da biste označili više stavki u Biblioteci medija i u nastavku liste, možete koristiti ( ) ili ključ dok ih birati <code>Ctrl</code> <code>Cmd</code> <code>Shift</code> mišem."
+
+#: advance/theme-options.php:954 advance/theme-options.php:962
+msgid "To top button"
+msgstr "Do gornjeg dugmeta"
+
+#: advance/theme-options.php:1832 advance/theme-options.php:1839
+#: advance/theme-options.php:1846 advance/theme-options.php:1853
+#: advance/theme-options.php:1912 advance/theme-options.php:1934
+#: advance/theme-options.php:1942 advance/theme-options.php:1951
+#: advance/theme-options.php:1963 advance/theme-options.php:1972
+#: advance/theme-options.php:1980 advance/theme-options.php:1988
+msgid "Tools button"
+msgstr "Dugme \"Alati\""
+
+#: advance/theme-options.php:1818 advance/theme-options.php:1825
+#: advance/theme-options.php:1883 advance/theme-options.php:1891
+#: advance/theme-options.php:1898
+msgid "Tools icons"
+msgstr "Ikone alata"
+
+#: advance/inc/customizer/controls/posterity-class-a13-customize-spacing-control.php:40
+msgid "Top"
+msgstr "izdvajamo"
+
+#: advance/theme-options.php:924
+msgid "Top margin"
+msgstr "Gornja margina"
+
+#: advance/admin/print-options.php:237
+msgid "Transparent"
+msgstr "Transpoarentno"
+
+#: advance/theme-options.php:1154
+msgid "Turn on only for a sticky variant"
+msgstr "Uključite samo za ljepljivo varijantu"
+
+#: advance/theme-options.php:866
+msgid "Type of icons"
+msgstr "Tip ikona"
+
+#: advance/theme-options.php:2179
+msgid "Type of post excerpts"
+msgstr "Vrsta izvadka posta"
+
+#: advance/theme-options.php:1110
+msgid "Type, variant, background"
+msgstr "Tip, varijanta, pozadina"
+
+#: advance/head-scripts-styles.php:203
+msgid "Uncheck item"
+msgstr "Otkaži stavku"
+
+#: advance/inc/customizer/controls/posterity-class-a13-customize-spacing-control.php:96
+msgid "Unit"
+msgstr "Jedinica"
+
+#: advance/inc/class-tgm-plugin-activation.php:2723
+#: advance/class-posterity-framework.php:965
+msgid "Update"
+msgstr "Ažuriraj"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: advance/inc/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr "Ažuriraj %2$s"
+
+#. translators: 1: number of plugins.
+#: advance/inc/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Ažuriranje dostupno za <span class=\"count\">( %s)</span>"
+msgstr[1] ""
+msgstr[2] ""
+
+#: advance/inc/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "Preporučeno ažuriranje"
+
+#: advance/theme-options.php:2223 advance/theme-options.php:2438
+msgid "Updated"
+msgstr "Ažurirano"
+
+#: advance/utilities/posts.php:42
+msgid "Updated: "
+msgstr "Ažuriran: "
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: advance/inc/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Ažuriranje plugina %1$s (%2$d/%3$d)"
+
+#. translators: %s: plugin name.
+#: advance/inc/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr "Apauting Plugin: %s"
+
+#: advance/inc/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "Poruka za nadogradnju od autora plugina:"
+
+#: advance/admin/print-options.php:123
+msgid "Upload"
+msgstr "Uploaduj"
+
+#: advance/theme-options.php:1297 advance/theme-options.php:1305
+#: advance/theme-options.php:1675 advance/theme-options.php:1686
+msgid "Upload an image for logo."
+msgstr "Upload sliku za logo."
+
+#: advance/theme-options.php:58
+msgid "Uppercase"
+msgstr "Uveličati"
+
+#: advance/theme-options.php:1274
+msgid "Use logos from header variants"
+msgstr "Koristi logotipe iz varijanti zaglavlja"
+
+#: advance/admin/print-options.php:269
+msgid "Use slider to set proper value. You can click on slider handle and then use arrows keys(on keyboard) to adjust value precisely. You can also type in input value that is in/out of range of slider, and it will be used."
+msgstr "Koristi klizač da postaviš odgovarajuću vrijednost. Možete kliknuti na dršku klizača, a zatim koristiti tipke sa strelicama(na tastaturi) za precizno podešavanje vrijednosti. Možete ukucati i ulaznu vrijednost koja je u/izvan dometa klizača, i ona će se koristiti."
+
+#: advance/admin/print-options.php:235
+msgid "Use the \"Transparent\" button to insert a transparent value."
+msgstr "Koristite dugme \"Prozirno\" da umetnete prozirno vrednovanje."
+
+#: advance/admin/print-options.php:235
+msgid "Use the correct <code>color</code> property in CSS( <code>green, #33FF99, rgb(255,128,0), rgba(222,112,12,0.5)</code> ), or choose a color with a color picker. Leave an empty value to use the default theme value."
+msgstr "Koristite ispravno <code>color</code> svojstvo u CSS( ), ili odaberite boju sa <code>green, #33FF99, rgb(255,128,0), rgba(222,112,12,0.5)</code> odabiračom boja. Ostavite praznu vrijednost da koristite zadanu vrijednost teme."
+
+#: advance/theme-options.php:906
+msgid "Use theme lightbox for images in posts"
+msgstr "Koristi tematski lightbox za slike u postovima"
+
+#: advance/theme-options.php:3634
+msgid "Used in breadcrumbs."
+msgstr "Koristi se u mrvicama kruha."
+
+#: advance/theme-options.php:1192
+msgid "Useful in special cases, like when you make a transparent header."
+msgstr "Korisno u specijalnim slučajevima, kao kada pravite prozirno zaglavlje."
+
+#: advance/inc/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "Verzija"
+
+#: advance/theme-options.php:2100
+msgid "Vertical centered"
+msgstr "Vertikalno centriraj"
+
+#: advance/theme-options.php:2098
+msgid "Vertical no padding"
+msgstr "Vertikalno bez paddinga"
+
+#: advance/theme-options.php:2099
+msgid "Vertical with padding"
+msgstr "Vertikalno s podlošci"
+
+#. translators: %s - author name
+#: attachment.php:53 advance/utilities/posts.php:140
+msgid "View all posts by %s"
+msgstr "Pregledajte sve članke od %s"
+
+#. translators: %s - parent term name
+#: advance/utilities/woocommerce.php:102
+msgid "View all posts in %s"
+msgstr "Pogledajte sve članke u %s"
+
+#: advance/admin/posterityinfo-pages-functions.php:49
+msgid "WP Memory Limit"
+msgstr "WP ograničenje memorije"
+
+#: advance/admin/posterityinfo-pages-functions.php:83
+#: advance/admin/posterityinfo-pages-functions.php:86
+msgid "We recommend a minimum PHP version of 5.6. Having version 7 or higher is even better."
+msgstr "Preporučujemo minimalnu PHP verziju 5.6. Imati verziju 7 ili više je još bolje."
+
+#: advance/utilities/cpt.php:17
+msgid "Website"
+msgstr "Web stranica"
+
+#. translators: %s: Theme name
+#: advance/posterity.php:148 advance/admin/posterityinfo-pages.php:59
+msgid "Welcome to %s Theme"
+msgstr "Dobrodošli u %s temu"
+
+#: advance/theme-options.php:167
+msgid "What to show on the front page?"
+msgstr "Šta pokazati na naslovnoj strani?"
+
+#: advance/admin/posterityinfo-pages.php:6
+msgid "What's next?"
+msgstr "Šta je sledeće?"
+
+#: advance/theme-options.php:3295
+msgid "When WooCommerce is activated, button opening this basket will appear in the header. There also have to be some active widgets in \"Basket sidebar\" for this."
+msgstr "Kada se Aktivira WooCommerce, u zaglavlju će se pojaviti otvaranje gumba za otvaranje ove korpe. Za ovo mora biti i nekih aktivnih widgeta u \"Basket sidebaru\"."
+
+#: advance/admin/posterityinfo-pages.php:26
+msgid "Where to get help?"
+msgstr "Gde da nađemo pomoć?"
+
+#: advance/theme-options.php:114
+msgid "White"
+msgstr "Bijelo"
+
+#: advance/theme-options.php:916
+msgid "Widgets"
+msgstr "Widgeti"
+
+#: advance/theme-options.php:542 advance/theme-options.php:653
+#: advance/theme-options.php:3320
+msgid "Widgets colors"
+msgstr "Boje widgeta"
+
+#: advance/theme-options.php:423
+msgid "Widgets columns number"
+msgstr "Broj stupca widgeta"
+
+#: advance/sidebars.php:43
+msgid "Widgets from this area will appear in footer, only if horizontal header is used."
+msgstr "Widgeti iz ovog područja će se pojaviti u podnožju, samo ako se koristi horizontalno zaglavlje."
+
+#: advance/sidebars.php:18
+msgid "Widgets from this sidebar will appear in single posts."
+msgstr "Widgeti sa ove boиne trake жe se pojaviti u jednim postovima."
+
+#: advance/sidebars.php:23 advance/sidebars.php:69
+msgid "Widgets from this sidebar will appear in static pages."
+msgstr "Widgeti sa ove bočna traka će se pojaviti u statičkim stranicama."
+
+#: advance/sidebars.php:13
+msgid "Widgets from this sidebar will appear on blog, search results, archive page, and 404 error page."
+msgstr "Widgeti sa ove bocne trake ce se pojaviti na blogu, rezultatima pretrage, stranici arhive i stranici 404 greške."
+
+#: advance/sidebars.php:28
+msgid "Widgets from this sidebar will appear only in shop pages. WooCommerce have to be installed and activated."
+msgstr "Widgeti sa ove boиne trake жe se pojaviti samo na stranicama prodavnice. WooCommerce mora biti instaliran i aktiviran."
+
+#: advance/theme-options.php:587
+msgid "Widgets part"
+msgstr "Dio widgeta"
+
+#: advance/theme-options.php:2427
+msgid "Will show information about author below post content."
+msgstr "Će pokazati informacije o autoru ispod post sadržaja."
+
+#: advance/inc/customizer/controls/posterity-class-a13-customize-font-control.php:120
+msgid "Word Spacing"
+msgstr "Razmak između riječi"
+
+#: advance/inc/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "WordPress repozitron"
+
+#: advance/head-scripts-styles.php:201
+msgid "Write your comment here&hellip;"
+msgstr "Napiši svoj komentar ovdje..."
+
+#. translators: %s - year
+#: index.php:61
+msgid "Yearly Archives: %s"
+msgstr "Yearly Archives: %s"
+
+#: advance/theme-options.php:1020
+msgid "You can change here colors of buttons that submit forms. For shop buttons, go to the shop settings."
+msgstr "Ovdje možete promijeniti boje dugmadi koje predaju obrasce. Za dugmad za kupovinu, idite na postavke prodavnice."
+
+#: advance/theme-options.php:3333
+msgid "You can change here the colors of buttons used in the shop. Alternative buttons colors are used in various places in the shop."
+msgstr "Ovdje možete promijeniti boje dugmadi koje se koriste u radnji. Alternativna dugmad boje se koriste na raznim mjestima u radnji."
+
+#: advance/theme-options.php:3470
+msgid "You can change it in each page settings."
+msgstr "Možete ga promijeniti u svakoj postavki stranice."
+
+#: advance/theme-options.php:1666
+msgid "You can change some options here to modify the appearance of the sticky header(if it is enabled)."
+msgstr "Ovdje možete promijeniti neke opcije kako biste izmijenili izgled ljepljivog zaglavlja(ako je omogućeno)."
+
+#: advance/theme-options.php:2212
+msgid "You can set to display videos as featured image on posts list. This can speed up loading of pages with many posts(blog, archive, search results) when the videos are used."
+msgstr "Možete podesiti da se videi prikazuju kao prikazana slika na listi postova. Ovo može ubrzati učitavanje stranica sa mnogo postova(blog, arhiva, rezultati pretrage) kada se koriste video zapisi."
+
+#: advance/theme-options.php:2204
+msgid "You can set to not display post media(featured image/video/slider) inside of the post brick."
+msgstr "Možete postaviti da ne prikazujete post media(featured image/video/slider) unutar post cigle."
+
+#: advance/theme-options.php:2419
+msgid "You can set to not display post media(featured image/video/slider) inside of the post."
+msgstr "Možete podesiti da ne prikazujete post media(featured image/video/slider) unutar posta."
+
+#: advance/meta.php:735 advance/theme-options.php:439
+msgid "You can use HTML here."
+msgstr "Html možete koristiti ovdje."
+
+#: advance/theme-options.php:2220 advance/theme-options.php:2435
+msgid "You can't use both dates, because the Search Engine will not know which date is correct."
+msgstr "Ne možete koristiti oba datuma, jer Pretraživač neće znati koji datum je točan."
+
+#: advance/utilities/layout-parts.php:492 advance/utilities/header.php:248
+msgctxt "action"
+msgid "Search"
+msgstr "Pretraga"
+
+#: advance/inc/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "nepoznat"
+
+#: advance/customizer.php:413
+msgid "black"
+msgstr "Crna"
+
+#: advance/customizer.php:411
+msgid "bold"
+msgstr "Hrabar"
+
+#. translators: %s - author name
+#: advance/utilities/posts.php:136
+msgid "by %s "
+msgstr "kod %s "
+
+#: advance/customizer.php:412
+msgid "extra-bold"
+msgstr "ekstra-podebljano"
+
+#: advance/customizer.php:406
+msgid "extra-light"
+msgstr "extra-light"
+
+#: advance/meta.php:412
+msgid "from 1st row"
+msgstr "iz 1. reda"
+
+#: advance/meta.php:413
+msgid "from 2nd row"
+msgstr "iz 2. reda"
+
+#: advance/meta.php:414
+msgid "from 3rd row"
+msgstr "iz 3. reda"
+
+#: advance/meta.php:415
+msgid "from 4th row"
+msgstr "iz 4. reda"
+
+#: advance/meta.php:416
+msgid "from 5th row"
+msgstr "iz 5. reda"
+
+#: 404.php:37
+msgid "home page"
+msgstr "naslovna stranica"
+
+#: advance/customizer.php:407
+msgid "light"
+msgstr "Svetlo"
+
+#: advance/customizer.php:409
+msgid "medium"
+msgstr "Srednjeg intenziteta"
+
+#: advance/utilities/cpt.php:371
+msgctxt "next product"
+msgid "Next"
+msgstr "Dalje"
+
+#: advance/theme-options.php:325
+msgid "none"
+msgstr "Ništa"
+
+#: advance/theme-options.php:1312 advance/theme-options.php:1416
+#: advance/theme-options.php:1696 advance/theme-options.php:1726
+msgid "on desktop"
+msgstr "na radnoj površini"
+
+#: advance/theme-options.php:489 advance/theme-options.php:617
+#: advance/theme-options.php:755 advance/theme-options.php:825
+#: advance/theme-options.php:976 advance/theme-options.php:990
+#: advance/theme-options.php:1034 advance/theme-options.php:1046
+#: advance/theme-options.php:1191 advance/theme-options.php:1241
+#: advance/theme-options.php:1363 advance/theme-options.php:1390
+#: advance/theme-options.php:1764 advance/theme-options.php:1839
+#: advance/theme-options.php:1853 advance/theme-options.php:1871
+#: advance/theme-options.php:1980 advance/theme-options.php:3347
+#: advance/theme-options.php:3359 advance/theme-options.php:3371
+#: advance/theme-options.php:3383
+msgid "on hover"
+msgstr "na lebdeci"
+
+#: advance/theme-options.php:1516 advance/theme-options.php:1523
+#: advance/theme-options.php:1630 advance/theme-options.php:1780
+#: advance/theme-options.php:1786 advance/theme-options.php:1825
+#: advance/theme-options.php:1898
+msgid "on hover/active"
+msgstr "na lebdeci/aktivni"
+
+#: advance/theme-options.php:785 advance/theme-options.php:1327
+#: advance/theme-options.php:1430 advance/theme-options.php:1711
+#: advance/theme-options.php:1740
+msgid "on mobile devices"
+msgstr "na mobilnim uređajima"
+
+#: advance/utilities/password.php:13
+msgid "password"
+msgstr "lozinka"
+
+#: advance/inc/class-tgm-plugin-activation.php:1121
+#: advance/inc/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "I"
+
+#. translators: 1: number of plugins.
+#: advance/inc/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Svi <span class=\"count\">(%s)</span>"
+msgstr[1] ""
+msgstr[2] ""
+
+#: 404.php:38
+msgid "previous page"
+msgstr "prethodna stranica"
+
+#: advance/utilities/cpt.php:370
+msgctxt "previous product"
+msgid "Previous"
+msgstr "Prethodno"
+
+#: advance/customizer.php:408
+msgid "regular"
+msgstr "Obične"
+
+#: advance/customizer.php:410
+msgid "semi-bold"
+msgstr "polu-podebljano"
+
+#: advance/customizer.php:405
+msgid "thin"
+msgstr "Tanki"
+
+#: advance/inc/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "Potrebna nadogradnja"
+
+#: advance/utilities/layout-parts.php:483
+msgid "Search &hellip;"
+msgstr "Pretraži &hellip;"
+
+#. Template Name of the theme
+msgid "Archives"
+msgstr "Arhiva"
+
+#: advance/meta.php:62 advance/meta.php:636
+msgid "Area height"
+msgstr "Visina područja"
+
+#: advance/meta.php:136 advance/meta.php:451 advance/theme-options.php:2503
+#: advance/theme-options.php:3018 advance/theme-options.php:3532
+msgid "Before the content"
+msgstr "Prije sadržaja"
+
+#: advance/meta.php:334 advance/meta.php:344 advance/theme-options.php:2078
+msgid "Both off"
+msgstr "Oba isključena"
+
+#: advance/meta.php:331 advance/meta.php:343 advance/theme-options.php:2075
+msgid "Both on"
+msgstr "Oba na"
+
+#: advance/meta.php:164 advance/meta.php:479 advance/theme-options.php:2291
+#: advance/theme-options.php:2529 advance/theme-options.php:2856
+#: advance/theme-options.php:3203
+msgid "Boxed"
+msgstr "Boxed"
+
+#: archives-template.php:52
+msgid "By months"
+msgstr "Mjesecima"
+
+#: advance/meta.php:315 advance/theme-options.php:82
+msgid "Center fixed width"
+msgstr "Centriraj fiksnu širinu"
+
+#: advance/meta.php:149 advance/meta.php:464 advance/theme-options.php:516
+#: advance/theme-options.php:2280 advance/theme-options.php:2515
+#: advance/theme-options.php:2845 advance/theme-options.php:3030
+#: advance/theme-options.php:3192 advance/theme-options.php:3544
+msgid "Centered"
+msgstr "Centrirano"
+
+#: advance/meta.php:148 advance/meta.php:463 advance/theme-options.php:2279
+#: advance/theme-options.php:2514 advance/theme-options.php:2844
+#: advance/theme-options.php:3029 advance/theme-options.php:3191
+#: advance/theme-options.php:3543
+msgid "Classic(to side)"
+msgstr "Klasik(na stranu)"
+
+#: advance/meta.php:178 advance/meta.php:493 advance/theme-options.php:71
+msgid "Contain"
+msgstr "Sadrži"
+
+#: advance/meta.php:326 advance/meta.php:338 advance/theme-options.php:438
+#: advance/theme-options.php:501 advance/theme-options.php:513
+#: advance/theme-options.php:797 advance/theme-options.php:942
+#: advance/theme-options.php:2073
+msgid "Content"
+msgstr "Sadržaj"
+
+#: advance/meta.php:307 advance/theme-options.php:2066
+#: advance/theme-options.php:2400 advance/theme-options.php:2718
+#: advance/theme-options.php:2965 advance/theme-options.php:3165
+#: advance/theme-options.php:3462
+msgid "Content Layout"
+msgstr "Raspored sadržaja"
+
+#: advance/meta.php:177 advance/meta.php:492 advance/theme-options.php:70
+msgid "Cover"
+msgstr "Korice"
+
+#: advance/meta.php:288
+msgid "Default for pages"
+msgstr "Zadano za stranice"
+
+#: advance/meta.php:57 advance/meta.php:199 advance/meta.php:514
+#: advance/meta.php:631 advance/meta.php:671 advance/theme-options.php:39
+#: advance/theme-options.php:899 advance/theme-options.php:1155
+#: advance/theme-options.php:2224 advance/theme-options.php:2439
+msgid "Disable"
+msgstr "Isključi"
+
+#: advance/meta.php:56 advance/meta.php:198 advance/meta.php:513
+#: advance/meta.php:630 advance/meta.php:670 advance/theme-options.php:38
+msgid "Enable"
+msgstr "Omogući"
+
+#: advance/meta.php:51 advance/meta.php:625
+msgid "Featured Image "
+msgstr "Prikazana slika "
+
+#: advance/meta.php:180 advance/meta.php:495 advance/theme-options.php:73
+msgid "Fit Horizontally"
+msgstr "Uklopi vodoravno"
+
+#: advance/meta.php:179 advance/meta.php:494 advance/theme-options.php:72
+msgid "Fit Vertically"
+msgstr "Stane vertikalno"
+
+#: advance/meta.php:163 advance/meta.php:478 advance/theme-options.php:2290
+#: advance/theme-options.php:2528 advance/theme-options.php:2855
+#: advance/theme-options.php:3202
+msgid "Full"
+msgstr "Pun"
+
+#: advance/meta.php:322 advance/theme-options.php:89
+#: advance/theme-options.php:222 advance/theme-options.php:504
+#: advance/theme-options.php:1166
+msgid "Full width"
+msgstr "Puna širina"
+
+#: advance/meta.php:320 advance/theme-options.php:87
+msgid "Full width + fixed content"
+msgstr "Puna širina + fiksni sadržaj"
+
+#: advance/meta.php:321 advance/theme-options.php:88
+msgid "Full width + padding"
+msgstr "Puna širina + padding"
+
+#: advance/meta.php:98 advance/meta.php:125 advance/meta.php:314
+#: advance/meta.php:354 advance/meta.php:398 advance/meta.php:440
+#: advance/theme-options.php:28
+msgid "Global settings"
+msgstr "Globalne postavke"
+
+#: advance/meta.php:84 advance/meta.php:384 advance/theme-options.php:1812
+msgid "Header"
+msgstr "Zaglavlje"
+
+#: advance/meta.php:90 advance/meta.php:390 advance/theme-options.php:2057
+#: advance/theme-options.php:2391 advance/theme-options.php:2709
+#: advance/theme-options.php:2956 advance/theme-options.php:3156
+#: advance/theme-options.php:3453
+msgid "Hide content under the header"
+msgstr "Sakrij sadržaj ispod zaglavlja"
+
+#: advance/meta.php:173 advance/meta.php:488 advance/theme-options.php:205
+#: advance/theme-options.php:306 advance/theme-options.php:2032
+#: advance/theme-options.php:2306 advance/theme-options.php:2550
+#: advance/theme-options.php:2676 advance/theme-options.php:2871
+#: advance/theme-options.php:3051 advance/theme-options.php:3218
+#: advance/theme-options.php:3498 advance/theme-options.php:3565
+msgid "How to fit the background image"
+msgstr "Kako se uklopiti u pozadinsku sliku"
+
+#: advance/meta.php:46 advance/meta.php:620 advance/theme-options.php:1288
+#: advance/theme-options.php:1296 advance/theme-options.php:1674
+msgid "Image"
+msgstr "Slika"
+
+#: advance/meta.php:137 advance/meta.php:452 advance/theme-options.php:2504
+#: advance/theme-options.php:3019 advance/theme-options.php:3533
+msgid "Inside the content"
+msgstr "Unutar sadržaja"
+
+#: advance/meta.php:209 advance/meta.php:524 advance/theme-options.php:2323
+#: advance/theme-options.php:2573 advance/theme-options.php:2888
+#: advance/theme-options.php:3074 advance/theme-options.php:3235
+#: advance/theme-options.php:3588
+msgid "It defines how the image will scroll in the background while the page is scrolled down."
+msgstr "Ona definiše kako će se slika pomaknuti u pozadini dok se stranica pomjera dolje."
+
+#: advance/meta.php:231 advance/meta.php:546 advance/theme-options.php:2335
+#: advance/theme-options.php:2586 advance/theme-options.php:2900
+#: advance/theme-options.php:3087 advance/theme-options.php:3247
+#: advance/theme-options.php:3601
+msgid "It will be only used for the background that is repeated. If the background is set to not repeat this value will be ignored."
+msgstr "Koristit će se samo za pozadinu koja se ponavlja. Ako je pozadina podešena da ne ponavlja ovu vrijednost će biti zanemaćena."
+
+#: advance/meta.php:181 advance/meta.php:496 advance/theme-options.php:74
+msgid "Just center"
+msgstr "Samo centar"
+
+#: archives-template.php:40
+msgid "Latest 50 posts"
+msgstr "Posljednjih 50 postova"
+
+#: advance/meta.php:301
+msgid "Layout &amp; Sidebar"
+msgstr "Raspored i bocna traka"
+
+#: advance/meta.php:316 advance/theme-options.php:83
+msgid "Left fixed width"
+msgstr "Lijeva fiksna širina"
+
+#: advance/meta.php:317 advance/theme-options.php:84
+msgid "Left fixed width + padding"
+msgstr "Lijeva fiksna širina + padding"
+
+#: advance/meta.php:338
+msgid "Left/right padding"
+msgstr "Lijevo/desno padding"
+
+#: advance/meta.php:333 advance/theme-options.php:2077
+msgid "Only bottom"
+msgstr "Samo dno"
+
+#: advance/meta.php:332 advance/theme-options.php:2076
+msgid "Only top"
+msgstr "Samo vrh"
+
+#: advance/meta.php:242 advance/meta.php:557 advance/meta.php:748
+#: advance/theme-options.php:2348 advance/theme-options.php:2600
+#: advance/theme-options.php:2913 advance/theme-options.php:3101
+#: advance/theme-options.php:3260 advance/theme-options.php:3615
+msgid "Overlay color"
+msgstr "Boja preklapanja"
+
+#: page.php:55 archives-template.php:34 advance/utilities/posts.php:187
+#: advance/utilities/layout-parts.php:1014
+msgid "Pages: "
+msgstr "Stranice: "
+
+#: advance/meta.php:51 advance/meta.php:62 advance/meta.php:193
+#: advance/meta.php:208 advance/meta.php:230 advance/meta.php:508
+#: advance/meta.php:523 advance/meta.php:545 advance/meta.php:625
+#: advance/meta.php:636 advance/theme-options.php:2314
+#: advance/theme-options.php:2322 advance/theme-options.php:2334
+#: advance/theme-options.php:2561 advance/theme-options.php:2572
+#: advance/theme-options.php:2585 advance/theme-options.php:2879
+#: advance/theme-options.php:2887 advance/theme-options.php:2899
+#: advance/theme-options.php:3062 advance/theme-options.php:3073
+#: advance/theme-options.php:3086 advance/theme-options.php:3226
+#: advance/theme-options.php:3234 advance/theme-options.php:3246
+#: advance/theme-options.php:3576 advance/theme-options.php:3587
+#: advance/theme-options.php:3600
+msgid "Parallax"
+msgstr "Premiještanje"
+
+#: advance/meta.php:131 advance/meta.php:446
+msgid "Position"
+msgstr "Pozicija"
+
+#: advance/meta.php:42 advance/meta.php:616
+msgid "Post media"
+msgstr "Post medij"
+
+#: advance/meta.php:11 advance/theme-options.php:2048
+#: advance/theme-options.php:2261
+msgid "Posts list"
+msgstr "Spisak postova"
+
+#: content.php:30 content.php:38 advance/utilities/posts.php:335
+#: advance/utilities/posts.php:352
+msgid "Read more"
+msgstr "Detaljnije"
+
+#: advance/meta.php:182 advance/meta.php:497 advance/theme-options.php:75
+msgid "Repeat"
+msgstr "Ponavljam"
+
+#: advance/meta.php:183 advance/meta.php:498 advance/theme-options.php:76
+msgid "Repeat X"
+msgstr "Ponovi X"
+
+#: advance/meta.php:184 advance/meta.php:499 advance/theme-options.php:77
+msgid "Repeat Y"
+msgstr "Ponovite Y"
+
+#: advance/meta.php:318 advance/theme-options.php:85
+msgid "Right fixed width"
+msgstr "Desna fiksna širina"
+
+#: advance/meta.php:319 advance/theme-options.php:86
+msgid "Right fixed width + padding"
+msgstr "Desna fiksna širina + padding"
+
+#: advance/meta.php:348 advance/theme-options.php:2085
+#: advance/theme-options.php:2407 advance/theme-options.php:2725
+#: advance/theme-options.php:2972 advance/theme-options.php:3469
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: advance/meta.php:355 advance/meta.php:356 advance/theme-options.php:3472
+msgid "Sidebar on the left"
+msgstr "Boиna traka lijevo"
+
+#: advance/meta.php:17
+msgid "Size of brick"
+msgstr "Veličina cigle"
+
+#: advance/meta.php:230 advance/meta.php:545 advance/theme-options.php:2334
+#: advance/theme-options.php:2585 advance/theme-options.php:2899
+#: advance/theme-options.php:3086 advance/theme-options.php:3246
+#: advance/theme-options.php:3600
+msgid "Speed"
+msgstr "Brzina"
+
+#: advance/meta.php:253 advance/meta.php:568 advance/meta.php:578
+#: advance/meta.php:754 advance/theme-options.php:599
+#: advance/theme-options.php:608 advance/theme-options.php:617
+#: advance/theme-options.php:749 advance/theme-options.php:755
+#: advance/theme-options.php:813 advance/theme-options.php:819
+#: advance/theme-options.php:825 advance/theme-options.php:849
+#: advance/theme-options.php:1040 advance/theme-options.php:1046
+#: advance/theme-options.php:1383 advance/theme-options.php:1390
+#: advance/theme-options.php:1509 advance/theme-options.php:1516
+#: advance/theme-options.php:1623 advance/theme-options.php:1630
+#: advance/theme-options.php:1754 advance/theme-options.php:1764
+#: advance/theme-options.php:1774 advance/theme-options.php:1780
+#: advance/theme-options.php:2356 advance/theme-options.php:2363
+#: advance/theme-options.php:2608 advance/theme-options.php:2618
+#: advance/theme-options.php:2921 advance/theme-options.php:2928
+#: advance/theme-options.php:3112 advance/theme-options.php:3122
+#: advance/theme-options.php:3268 advance/theme-options.php:3275
+#: advance/theme-options.php:3353 advance/theme-options.php:3359
+#: advance/theme-options.php:3377 advance/theme-options.php:3383
+#: advance/theme-options.php:3623 advance/theme-options.php:3633
+msgid "Text color"
+msgstr "Boja teksta"
+
+#: password-template.php:39
+msgid "This content is password protected."
+msgstr "Ovaj sadržaj je zaštićen lozinkom."
+
+#: advance/meta.php:63 advance/meta.php:637
+msgid "This limits the height of the image so that the parallax can work."
+msgstr "To ograničava visinu slike tako da paralaksa može da radi."
+
+#: advance/meta.php:113 advance/meta.php:119 advance/meta.php:428
+#: advance/meta.php:434 advance/theme-options.php:2261
+#: advance/theme-options.php:2485 advance/theme-options.php:2826
+#: advance/theme-options.php:3000 advance/theme-options.php:3174
+#: advance/theme-options.php:3514
+msgid "Title bar"
+msgstr "Naslovna barica"
+
+#: advance/meta.php:253 advance/meta.php:568 advance/theme-options.php:2356
+#: advance/theme-options.php:2608 advance/theme-options.php:2921
+#: advance/theme-options.php:3112 advance/theme-options.php:3268
+#: advance/theme-options.php:3623
+msgid "Titles"
+msgstr "Naslovi"
+
+#: advance/meta.php:139 advance/meta.php:454
+msgid "To set the background image for the \"Before the content\" option, use the <strong>featured image</strong>."
+msgstr "Da postavite pozadinsku sliku za opciju \"Prije sadržaja\", koristite <strong>prikazanu sliku</strong>."
+
+#: password-template.php:41 advance/utilities/posts.php:553
+msgid "To view it please enter your password below"
+msgstr "Da biste ga pregledali unesite svoju lozinku ispod"
+
+#: archives-template.php:62
+msgid "Top 10 categories"
+msgstr "Top 10 kategorija"
+
+#: archives-template.php:75
+msgid "Top 10 tags"
+msgstr "Top 10 oznaka"
+
+#: advance/meta.php:263 advance/meta.php:326 advance/meta.php:588
+#: advance/theme-options.php:2073 advance/theme-options.php:2370
+#: advance/theme-options.php:2628 advance/theme-options.php:2935
+#: advance/theme-options.php:3132 advance/theme-options.php:3282
+#: advance/theme-options.php:3644
+msgid "Top/bottom padding"
+msgstr "Gornji/donji padding"
+
+#: advance/meta.php:101 advance/meta.php:127 advance/meta.php:401
+#: advance/meta.php:442 advance/theme-options.php:107
+msgid "Turn it off"
+msgstr "Isključi ga"
+
+#: advance/meta.php:208 advance/meta.php:523 advance/theme-options.php:323
+#: advance/theme-options.php:1119 advance/theme-options.php:1286
+#: advance/theme-options.php:2160 advance/theme-options.php:2322
+#: advance/theme-options.php:2572 advance/theme-options.php:2814
+#: advance/theme-options.php:2887 advance/theme-options.php:3073
+#: advance/theme-options.php:3234 advance/theme-options.php:3587
+#: advance/theme-options.php:3668 advance/theme-options.php:3692
+#: advance/inc/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "Tip"
+
+#: advance/meta.php:126 advance/meta.php:441
+msgid "Use custom settings"
+msgstr "Koristi prilagođene postavke"
+
+#: advance/meta.php:143 advance/meta.php:458 advance/theme-options.php:1140
+#: advance/theme-options.php:2277 advance/theme-options.php:2512
+#: advance/theme-options.php:2842 advance/theme-options.php:3027
+#: advance/theme-options.php:3189 advance/theme-options.php:3541
+msgid "Variant"
+msgstr "Varijanta"
+
+#: advance/meta.php:18
+msgid "What should be the width of this post on the Posts list?"
+msgstr "Koja bi trebala biti širina ovog posta na listi Postova?"
+
+#: advance/meta.php:158 advance/meta.php:473 advance/theme-options.php:501
+#: advance/theme-options.php:2288 advance/theme-options.php:2526
+#: advance/theme-options.php:2853 advance/theme-options.php:3200
+msgid "Width"
+msgstr "Širina"
+
+#: advance/meta.php:243 advance/meta.php:558 advance/theme-options.php:2349
+#: advance/theme-options.php:2601 advance/theme-options.php:2914
+#: advance/theme-options.php:3102 advance/theme-options.php:3261
+#: advance/theme-options.php:3616
+msgid "Will be placed above the image(if used)"
+msgstr "Bit će omještano iznad slike(ako se koristi)"
+
+#: advance/meta.php:91 advance/meta.php:391 advance/meta.php:406
+#: advance/theme-options.php:1313 advance/theme-options.php:1480
+#: advance/theme-options.php:1666 advance/theme-options.php:2058
+#: advance/theme-options.php:2392 advance/theme-options.php:2710
+#: advance/theme-options.php:2957 advance/theme-options.php:3157
+#: advance/theme-options.php:3454
+msgid "Works only with the horizontal header."
+msgstr "Radi samo sa horizontalnim zaglavljem."
+
+#: advance/meta.php:99 advance/meta.php:399 advance/theme-options.php:105
+msgid "Yes, hide the content"
+msgstr "Da, sakrij sadržaj"
+
+#: advance/meta.php:100 advance/meta.php:400 advance/theme-options.php:106
+msgid "Yes, hide the content and add top padding to the outside title bar."
+msgstr "Da, sakriti sadržaj i dodati vrh padding na vanjsku naslovnu bar."
+
+#: advance/meta.php:120 advance/meta.php:435
+msgid "You can use global settings or override them here"
+msgstr "Možete koristiti globalne postavke ili ih nadjačati ovdje"
+
+#: advance/meta.php:214 advance/meta.php:529 advance/theme-options.php:95
+msgid "bottom to top"
+msgstr "od dna do vrha"
+
+#: advance/meta.php:219 advance/meta.php:534 advance/theme-options.php:100
+msgid "bottom-left to top-right"
+msgstr "donji-lijevi u gornje-desno"
+
+#: advance/meta.php:220 advance/meta.php:535 advance/theme-options.php:101
+msgid "bottom-right to top-left"
+msgstr "donji-desna na vrh-lijevi"
+
+#: advance/meta.php:215 advance/meta.php:530 advance/theme-options.php:96
+msgid "left to right"
+msgstr "slijeva na desno"
+
+#: advance/meta.php:216 advance/meta.php:531 advance/theme-options.php:97
+msgid "right to left"
+msgstr "z desna nalijevo"
+
+#: advance/meta.php:213 advance/meta.php:528 advance/theme-options.php:94
+msgid "top to bottom"
+msgstr "od vrha do dna"
+
+#: advance/meta.php:217 advance/meta.php:532 advance/theme-options.php:98
+msgid "top-left to bottom-right"
+msgstr "od vrha lijevo prema donjem desnom"
+
+#: advance/meta.php:218 advance/meta.php:533 advance/theme-options.php:99
+msgid "top-right to bottom-left"
+msgstr "od gornjeg desnog prema donjem lijevom"
+
+#: advance/meta.php:36 advance/meta.php:610
+msgid "Featured media"
+msgstr "Istaknuta multimedija"
+
+#. Author of the theme
+#: advance/posterity.php:115
+msgid "SKT Themes"
+msgstr "SKT Teme"
+
+#. Author URI of the theme
+msgid "https://www.sktthemes.org"
+msgstr "https://www.sktthemes.org"
+
+#. Theme URI of the theme
+msgid "https://www.sktthemes.org/shop/free-creative-agency-wordpress-theme"
+msgstr "https://www.sktthemes.org/shop/free-creative-agency-wordpress-theme"

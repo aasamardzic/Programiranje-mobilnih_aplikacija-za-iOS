@@ -1,0 +1,61 @@
+input#email , input#url{
+    direction: ltr;
+}
+#center.has-left-sidebar{
+    padding-left: 250px;
+}
+#center.has-right-sidebar{
+    padding-right: 250px;
+}
+#content{
+    float: left;
+}
+[sidebar=main-left]{
+    float: right;
+    box-sizing: border-box;
+    width: 250px;
+    padding: 10px;
+    margin-left: -250px;
+    right: 100%;
+    position: relative;
+}
+[sidebar=main-right]{
+    float: right;
+    box-sizing: border-box;
+    width: 250px;
+    padding: 10px;
+    margin-right: -250px;
+}
+@media only screen and (max-width: 900px){
+    body #center.has-left-sidebar{
+        padding-left: 0px;
+    }
+    body #center.has-right-sidebar{
+        padding-right: 0px;
+    }
+    body #content{
+        float: none;
+    }
+    body [sidebar=main-left]{
+        float: left;
+        margin-left: 0px;
+        position: static;
+        width: 50%;
+    }
+    body [sidebar=main-right]{
+        float: left;
+        margin-right: 0px;
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 600px){
+    body [sidebar=main-left]{
+        width: 100%;
+    }
+    body [sidebar=main-right]{
+        width: 100%;
+    }
+    body .site .footer .footer-2 [sidebar]{
+        width: 100%;
+    }
+}
